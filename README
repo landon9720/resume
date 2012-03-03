@@ -28,6 +28,8 @@ ClearAccess develops Auto-Configuration Server (ACS) software and customer-prese
 
 * Responsible for operational support of production failures. Role includes troubleshooting production environments, instrumenting monitoring and diagnostic endpoints, and fixing coding errors. Work needs to be completed quickly and under pressure from stakeholders.
 
+* Managed product releases, including work prioritization and assignment. Communicated with stakeholders and produced technical requirements, with focus on customer satisfaction and cohesive software architecture. Developed and executed release process to produce deliverables including build artifacts and documentation.
+
 
   Qualcomm, Inc.                          Senior Engineer
   Portland, Oregon                              2001-2009
@@ -48,16 +50,13 @@ Project highlights:
 
 * AA&D integrates customer data with vehicle position streams to detect business events. Implemented the user interface, customer integration interface, and business-logic state machine.
 	
-Designed a Java application container for the IBM iSeries platform. The container provides services such as database and thread pooling, task scheduling, durable event delivery, inter-process communication with a J2EE tier, and domain-specific services such as customer data modeling and persistence.
-
-QHOS is an Hours-of-Service compliance web application with satellite connectivity to customer fleets. Implemented user interface features and the rules processing engine.
+* Designed a Java application container for the IBM iSeries platform. The container provides services such as database and thread pooling, task scheduling, durable event delivery, inter-process communication with a J2EE tier, and domain-specific services such as customer data modeling and persistence.
 
 
   EDUCATION
 
   Portland State University                          B.S.
   Portland, Oregon                    Information Systems
-                                and Quantitative Analysis
-                                                     2001
+  2001                          and Quantitative Analysis
                                                      
 Coursework included C, C++, C#/.NET, SQL, data structures and algorithms, data modeling, finance, and marketing.
