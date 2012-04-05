@@ -20,7 +20,7 @@ Software developer of desktop applications, web applications, back-end data proc
   ClearAccess Inc.                        Senior Engineer
   Vancouver, Washington                         2009-2012
 
-ClearAccess develops Auto-Configuration Server (ACS) software and customer-presence equipment (CPE) firmware delivering flexible and scalable device and application management based on the Broadband Forum's TR-069 standard. 
+ClearAccess develops Auto-Configuration Server (ACS) software and customer-presence equipment (CPE) firmware delivering flexible and scalable device and application management based on the Broadband Forum's TR-069 standard. ClearAccess was acquired by Cisco Systems in March of 2012.
 
 * Responsible for development of the ACS product, including: 1. web services and background processes implemented in Scala and Java, 2. user interfaces utilizing AJAX libraries and patterns, 3. data storage using relational databases (MySQL, PostgreSQL, and Oracle Database, Mongo, Solr) and ORM (Hibernate), and 4. device communication scripting using server-side JavaScript interpreter.
 
