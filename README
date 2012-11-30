@@ -8,7 +8,7 @@ Software developer of web applications and services, back-end data processing, s
 
   SUMMARY
 
-* Java, Scala, JavaScript, C#/.NET, C, C++, J2EE/Servlet, JSP, Velocity, ASP.NET, AJAX, HTML, CSS, RSS, Rails, jQuery, Prototype, Underscore, Spring MVC, Struts, SQL, MSSQL, MySQL, PostgreSQL, Oracle Database, XML, SOAP, REST, JMS, Mongo, Solr, SVN, Git
+* AJAX, ASP.NET, C#/.NET, C++, C, CSS, Git, HTML, J2EE, Java, JavaScript, JMS, jQuery, JSP, Mongo, MSSQL, MySQL, OLAP, Oracle Database, PostgreSQL, REST, Scala, SOAP, Solr, SQL, Subversion, Underscore, web services, XML
 
 * Dependency injection/IoC, mock objects, programming patterns, unit testing, test-driven, iterative and collaborative development, continuous integration, automated builds, open thinking
 
@@ -17,10 +17,17 @@ Software developer of web applications and services, back-end data processing, s
 
   WORK EXPERIENCE
 
+  Marin Software                          Senior Engineer
+  Portland, Oregon                                   2012
+
+Marin Software allows advertisers to manage online marketing campaigns across a variety of publishers, including Google, Facebook, Yahoo, and Bing.
+
+* Lead development of search features and performance improvements. Developed search and analytic web services. Developed browser library for asynchronously loading search and analytics data, allowing progressive load of page elements.
+
   ClearAccess Inc.                        Senior Engineer
   Vancouver, Washington                         2009-2012
 
-ClearAccess develops Auto-Configuration Server (ACS) software and customer-presence equipment (CPE) firmware delivering flexible and scalable device and application management based on the Broadband Forum's TR-069 standard. ClearAccess was acquired by Cisco Systems in March of 2012.
+ClearAccess develops Auto-Configuration Server (ACS) software and customer-presence equipment (CPE) firmware delivering flexible and scalable device and application management based on the Broadband Forum's TR-069 standard. ClearAccess was acquired by Cisco Systems in March 2012.
 
 * Responsible for development of the ACS product, including: 1. web services and background processes implemented in Scala and Java, 2. user interfaces utilizing AJAX libraries and patterns, 3. data storage (MySQL, PostgreSQL, and Oracle Database, Mongo, Solr) and ORM (Hibernate), and 4. device communication scripting using server-side JavaScript interpreter.
 
