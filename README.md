@@ -1,12 +1,8 @@
-  Landon Kuhn
+# Landon Kuhn
 
-  2121 SE Belmont Street #317                971 645 5501
-  Portland, OR 97214                 landon9720@gmail.com
+*landon9720@gmail.com - 2121 SE Belmont St. #317 - Portland, OR 97214 - 971 645 5501*
 
-Software developer of web applications and services, back-end data processing, storage, and communications systems. Focuses include team collaboration, customer interaction, operational support, and scaling.
-
-
-  SUMMARY
+## Summary
 
 * AJAX, Akka, C++, C, CSS, Git, HTML, J2EE, Java, JavaScript, JMS, jQuery, JSP, MongoDB, MSSQL, MySQL, OLAP, Oracle Database, PostgreSQL, REST, Scala, Solr, SQL, Subversion, Underscore, web services, XML
 
@@ -14,19 +10,19 @@ Software developer of web applications and services, back-end data processing, s
 
 * Genetic algorithms, simulations, functional programming, domain-specific languages, scaling and operationalization of complex systems
 
+## Experience
 
-  WORK EXPERIENCE
+#### Marin Software
 
-  Marin Software                          Senior Engineer
-  Portland, Oregon                                   2012
+*Senior Engineer - Portland, Oregon - 2012*
 
 Marin Software allows advertisers to manage online marketing campaigns across a variety of publishers, including Google, Facebook, Yahoo, and Bing.
 
 * Lead development of search features and performance improvements. Developed search and analytic web services. Developed browser library for asynchronously loading search and analytics data, allowing progressive load of page elements.
 
+#### ClearAccess Inc.
 
-  ClearAccess Inc.                        Senior Engineer
-  Vancouver, Washington                         2009-2012
+*Senior Engineer - Vancouver, Washington - 2009-2012*
 
 ClearAccess develops Auto-Configuration Server (ACS) software and customer-presence equipment (CPE) firmware delivering flexible and scalable device and application management based on the Broadband Forum's TR-069 standard. ClearAccess was acquired by Cisco Systems in March 2012.
 
@@ -38,9 +34,9 @@ ClearAccess develops Auto-Configuration Server (ACS) software and customer-prese
 
 * Managed product releases, including work prioritization and assignment. Communicated with stakeholders and produced technical requirements, with focus on customer satisfaction and cohesive software architecture. Developed and executed release process to produce deliverables including build artifacts and documentation.
 
+#### Qualcomm, Inc.
 
-  Qualcomm, Inc.                          Senior Engineer
-  Portland, Oregon                              2001-2009
+*Senior Engineer - Portland, Oregon - 2001-2009*
 
 Qualcomm designs, manufactures, and markets wireless telecommunications products and services based on its CDMA technology, and delivers integrated wireless applications and services to businesses around the world.
 
@@ -61,10 +57,8 @@ Project highlights:
 * Designed and built a Java application container for the IBM iSeries platform. The container provides services such as database and thread pooling, task scheduling, durable event delivery, inter-process communication with a J2EE tier, and domain-specific services such as customer data modeling and persistence.
 
 
-  EDUCATION
+## Education
 
-  Portland State University                          B.S.
-  Portland, Oregon                    Information Systems
-  2001                          and Quantitative Analysis
-                                                     
+*Portland State University - BS Information Systems and Quantitative Analysis - 2001*  
+                                                 
 Coursework included C, C++, C#/.NET, SQL, data structures and algorithms, data modeling, finance, and marketing.
