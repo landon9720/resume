@@ -1,6 +1,6 @@
 # Landon Kuhn
 
-*landon9720@gmail.com - 2121 SE Belmont St. #317 - Portland, OR 97214 - 971 645 5501*
+*landon9720@gmail.com - 534 NE Stanton St. - Portland, OR 97212 - 971 645 5501*
 
 ## Summary
 
