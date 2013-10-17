@@ -1,6 +1,6 @@
 # Landon Kuhn
 
-*landon9720@gmail.com - 534 NE Stanton St. - Portland, OR 97212 - 971 645 5501*
+landon9720@gmail.com
 
 ## Summary
 
@@ -16,7 +16,7 @@
 
 *Senior Engineer - Portland, Oregon - 2012*
 
-Marin Software allows advertisers to manage online marketing campaigns across a variety of publishers, including Google, Facebook, Yahoo, and Bing.
+Marin Software allows advertisers to manage online marketing campaigns across a variety of publishers, including Google and Facebook.
 
 * Lead development of search features and performance improvements. Developed search and analytic web services. Developed browser library for asynchronously loading search and analytics data, allowing progressive load of page elements.
 
