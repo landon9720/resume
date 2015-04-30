@@ -69,7 +69,7 @@ I am seeking to continue my career in software development and software engineer
 * Visual Studio
 
 #### Environments
-* Amazon EC2
+* Amazon Web Services
 * Apache Tomcat
 * Web Browsers
 * J2EE
@@ -79,7 +79,7 @@ I am seeking to continue my career in software development and software engineer
 * Microsoft Windows CE
 
 #### Practices
-* Asynchronous programming
+* Asynchronous programmingg
 * Continuous integration and delivery
 * Dependency injection and inversion of control
 * Domain-specific languages
@@ -107,7 +107,7 @@ I am seeking to continue my career in software development and software engineer
 
 * Janrain services capture profile and event data from sources including social networks, web forms, and user behavior. At Janrain, I lead the effort to build analytics products that leverage this data. My responsibilities include technology proof-of-concepts (Apache Hadoop, Apache Spark), vendor evaluations (Tableau, QlikView, Birst, GoodData), definition of system architecture, project planning, and project leadership.
 
-* Janrain manages engineering projects using the methodologies of scrum, continuous delivery, and iterative development. At Janrain, I define, prioritize, and sequence work. I collaborate with individual contributors, and drive stakeholder understanding and alignment. I faciliate process meetings, including sprint planning, and demonstrations of progress.
+* Janrain manages engineering projects using the methodologies of scrum, continuous delivery, and iterative development. At Janrain, I define, prioritize, and sequence work. I collaborate with individual contributors, and drive stakeholder understanding and alignment. I facilitate process meetings, including sprint planning, and demonstrations of progress.
 
 #### Marin Software
 
