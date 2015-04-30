@@ -79,7 +79,7 @@ I am seeking to continue my career in software development and software engineer
 * Microsoft Windows CE
 
 #### Practices
-* Asynchronous programmingg
+* Asynchronous programming
 * Continuous integration and delivery
 * Dependency injection and inversion of control
 * Domain-specific languages
