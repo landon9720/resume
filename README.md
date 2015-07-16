@@ -5,7 +5,7 @@
     Phone  : 971-645-5501
     Resume : https://github.com/landon9720/resume
 
-I am seeking to continue my career in software development and software engineering leadership.
+Software Architect at [MobileRQ](http://www.mobilerq.com).
 
 ## Summary
 
