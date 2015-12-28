@@ -5,7 +5,7 @@
     Phone  : 971-645-5501
     Resume : https://github.com/landon9720/resume
 
-Software Architect at [MobileRQ](http://www.mobilerq.com).
+Currently Software Architect at [MobileRQ](http://www.mobilerq.com).
 
 ## Summary
 
