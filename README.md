@@ -13,7 +13,7 @@ I am a full-stack software engineer experienced in web and mobile application de
 
 I develop and operate production software in languages C, C++, C#, Java, JavaScript, Objective-C, and Scala. Software I write runs in environments including web browsers, Linux, AWS, iOS, and PC.
 
-I have experience with many web technologies and frameworks including AJAX, ASP.NET, Bootstrap, ECMAScript 2015, Guava, HTML, HTTP, JSON, JSP, MVC, PHP, Play, REST, React, SOAP, Servlet, Spray.io, Spring, Tomcat, Underscore, XML, jQuery
+I have experience with many web technologies and frameworks including AJAX, ASP.NET, Bootstrap, ECMAScript 2015, Guava, HTML, HTTP, JSON, JSP, MVC, PHP, Play, REST, React, SOAP, Servlet, Spray.io, Spring, Tomcat, Underscore, XML, jQuery.
 
 I store data using MySQL, MSSQL, PostgreSQL, DynamoDB, Redshift, S3, Lucene, and Neo4j. I access and transform data using SQL, Apache Spark, Amazon EMR, ETL, and MDX. I build data visualizations using D3, Google Charts, Google Maps, and Tableau.
 
