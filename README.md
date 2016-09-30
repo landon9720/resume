@@ -15,7 +15,7 @@ I develop and operate production software in languages C, C++, C#, Java, JavaScr
 
 I have experience with many web technologies and frameworks including AJAX, ASP.NET, Bootstrap, ECMAScript 2015, Guava, HTML, HTTP, JSON, JSP, MVC, PHP, Play, REST, React, SOAP, Servlet, Spray.io, Spring, Tomcat, Underscore, XML, jQuery.
 
-I store data using MySQL, MSSQL, PostgreSQL, DynamoDB, Redshift, S3, Lucene, and Neo4j. I access and transform data using SQL, Apache Spark, Amazon EMR, ETL, and MDX. I build data visualizations using D3, Google Charts, Google Maps, and Tableau.
+I store data using MySQL, MSSQL, PostgreSQL, DynamoDB, Redshift, S3, Lucene, and Neo4j. I access and transform data using SQL, Apache Spark, Apache Ignite, Amazon EMR, ETL, and MDX. I build data visualizations using D3, Google Charts, Google Maps, and Tableau.
 
 I have experience operating software in colocation centers, on-premises, and in Amazon Web Services. I use AWS products including EC2, Elastic Beanstalk, RDS, CloudWatch, SNS, SQS, S3, DynamoDB, Redshift, Kinesis, and EMR.
 
@@ -77,7 +77,7 @@ I provided project management, including work prioritization. I communicated wit
 
 *Senior Engineer - Portland, Oregon - 2001-2009*
 
-> Qualcomm designs, manufactures, and markets wireless telecommunications products and services based on its CDMA technology, and delivers integrated wireless applications and services to businesses around the world.
+> Qualcomm designs, manufactures, and markets wireless telecommunications products and services based on its CDMA technology, and delivers integrated wireless applications and services.
 
 I advanced adoption of hosted web services using J2EE, AJAX, and related technologies. I lead technology and best practice adoption. I advanced the use of unit testing through advocacy, presentation, mentoring, and championing related techniques such as dependency injection and mock objects.
 
