@@ -9,9 +9,9 @@ I am currently seeking my next position in software engineering, architecture, a
 
 ## Summary
 
-I am a full-stack software engineer experienced in web and mobile application development, web APIs and services, and data processing, storage, and analytics. I work at all stages of software development: requirements, architecture, implementation, test, deployment, operation, monitoring, and support.
+I am a full-stack software engineer experienced in web and mobile application development, web APIs and services, data processing, storage, and analytics. I work at all stages of software development: requirements, architecture, implementation, test, deployment, operation, monitoring, and support.
 
-I develop and operate production software in languages C, C++, C#, Java, JavaScript, Objective-C, and Scala. Software I write runs in environments including web browsers, Linux, AWS, iOS, and PC.
+I develop and operate production software in languages C, C++, C#, Java, JavaScript, Objective-C, and Scala. I write for environments including web browsers, Linux, AWS, iOS, and PC.
 
 I have experience with many web technologies and frameworks including AJAX, ASP.NET, Bootstrap, ECMAScript 2015, Guava, HTML, HTTP, JSON, JSP, MVC, PHP, Play, REST, React, SOAP, Servlet, Spray.io, Spring, Tomcat, Underscore, XML, jQuery.
 
