@@ -31,7 +31,7 @@ My extracurricular programming interests include simulations, genetic algorithms
 
 *Software Architect - Portland, Oregon - 2015-2017*
 
-> [MobileRQ](http://www.mobilerq.com) is a platform that enables targeted content delivery and push notifications for mobile and web applications.
+> [MobileRQ](http://www.mobilerq.com) is a platform that enables targeted content delivery and push notifications for mobile and web applications. MobileRQ was acquired by [Kochava](https://www.kochava.com/) in 2017.
 
 I developed, operated, and supported MobileRQ's software products, including web applications and services on AWS, and SDKs for iOS and Android. My responsibilities included all aspects of the software stack, including front-end (jQuery, Bootstrap), web tier (Spring MVC/Jersey), data stores (RDS/DynamoDB/S3), and ETL (SQL/Spark). I worked with Scala, Java, and Amazon Web Services daily. I implemented major features and improvements including:
 
