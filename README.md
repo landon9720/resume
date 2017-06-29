@@ -5,7 +5,7 @@
     Phone  : 971-645-5501
     Resume : https://github.com/landon9720/resume
 
-I am Software Architect at [Sunsama](sunsama.com).
+I am currently Software Architect at [Sunsama](https://sunsama.com).
 
 ## Summary
 
