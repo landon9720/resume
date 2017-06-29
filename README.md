@@ -5,7 +5,7 @@
     Phone  : 971-645-5501
     Resume : https://github.com/landon9720/resume
 
-I am currently seeking my next position in software engineering, architecture, and technical leadership.
+I am Software Architect at [Sunsama](sunsama.com).
 
 ## Summary
 
