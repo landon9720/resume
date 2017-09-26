@@ -7,6 +7,39 @@
         <meta name="author" content="Landon Kuhn">
     </head>
 <body>
-  <h1>Hello, world</h1>
+    # {{& name }}
+
+        Email  : {{& email}}
+        City   : {{& city}}
+        Phone  : {{& phone}}
+        Resume : {{& resumeLink}}
+
+    {{& status}}
+
+    ## Summary
+
+    {{#summaryStatements}}
+    {{& .}}
+
+    {{/summaryStatements}}
+    ## Experience
+
+    {{#experience}}
+    #### {{& name}}
+
+    *{{& title}} - {{& location}} - {{& time}}*
+
+    > {{& companySummary}}
+
+    {{#narrative}}
+    {{& .}}
+
+    {{/narrative}}
+    {{/experience}}
+    ## Education
+
+    *{{& education.where}} - {{& education.what}} - {{& education.when}}*
+
+    {{& education.statement}}
 </body>
 </html>

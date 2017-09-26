@@ -3,20 +3,27 @@ const Mustache = require('mustache')
 const autolinks = require('autolinks')
 
 // recursively mutate data with 'autolinks'
-const recursiveAutolink = data => {
-  for (const key in data) {
-    if (typeof data[key] === 'string') {
-      data[key] = autolinks(data[key], 'markdown')
-    } else if (Array.isArray(data[key])) {
-      data[key].forEach(recursiveAutolink)
-    } else if (typeof data[key] === 'object') {
-      recursiveAutolink(data[key])
+const recursiveAutolink = (data, format) => {
+  const f = data => {
+    for (const key in data) {
+      if (typeof data[key] === 'string') {
+        data[key] = autolinks(data[key], format)
+      } else if (Array.isArray(data[key])) {
+        data[key].forEach(f)
+      } else if (typeof data[key] === 'object') {
+        f(data[key])
+      }
     }
+    return data
   }
-  return data
+  return f(data)
 }
 
-const data = recursiveAutolink(JSON.parse(fs.readFileSync('./data.json', 'utf8')))
-const viewMarkdown = fs.readFileSync('./view_markdown.mustache', 'utf8')
-const output = Mustache.render(viewMarkdown, data)
-console.log(output)
+const generateResume = (format, template, output) => {
+  const data = recursiveAutolink(JSON.parse(fs.readFileSync('data.json')), format)
+  const viewMarkdown = fs.readFileSync(template, 'utf8')
+  fs.writeFileSync(output, Mustache.render(viewMarkdown, data))
+}
+
+generateResume('markdown', 'view_markdown.mustache', 'README.md')
+generateResume('html', 'view_html.mustache', 'resume.html')
