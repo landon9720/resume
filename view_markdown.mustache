@@ -1,0 +1,34 @@
+# Landon Kuhn
+
+    Email  : {{& email}}
+    City   : {{& city}}
+    Phone  : {{& phone}}
+    Resume : {{& resumeLink}}
+
+{{& status}}
+
+## Summary
+
+{{#summaryStatements}}
+{{& .}}
+
+{{/summaryStatements}}
+## Experience
+
+{{#experience}}
+#### {{& name}}
+
+*{{& title}} - {{& location}} - {{& time}}*
+
+> {{& companySummary}}
+
+{{#narrative}}
+{{& .}}
+
+{{/narrative}}
+{{/experience}}
+## Education
+
+*{{& education.where}} - {{& education.what}} - {{& education.when}}*
+
+{{& education.statement}}

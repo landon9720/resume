@@ -1,0 +1,22 @@
+{
+  "name": "landon-kuhn-resume",
+  "version": "1.0.0",
+  "description": "Resume and work-related landing spot for Landon Kuhn.",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js > README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/landon9720/resume.git"
+  },
+  "author": "Landon Kuhn",
+  "license": "Unlicensed",
+  "bugs": {
+    "url": "https://github.com/landon9720/resume/issues"
+  },
+  "homepage": "https://github.com/landon9720/resume#readme",
+  "dependencies": {
+    "mustache": "^2.3.0"
+  }
+}
