@@ -5,41 +5,57 @@
         <title>Landon Kuhn - Resume</title>
         <meta name="description" content="Resume and work-related landing spot for Landon Kuhn">
         <meta name="author" content="Landon Kuhn">
+        <link href="https://fonts.googleapis.com/css?family=Alice" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     </head>
+    <style>
+        body {
+            font-family: 'Roboto';
+            max-width: 50em;
+            margin: auto;
+            padding: 10px;
+            color: #555;
+        }
+        h1, h2, h3, h4 {
+            font-family: 'Alice';
+            color: #333;
+        }
+        div {
+            
+        }
+        a, a:visited, a:hover, a:active {
+            color: inherit;
+        }
+    </style>
 <body>
-    # {{& name }}
+    <h1>{{& name }}</h1>
 
-        Email  : {{& email}}
-        City   : {{& city}}
-        Phone  : {{& phone}}
-        Resume : {{& resumeLink}}
+    <table>
+        <tr><td>Email</td><td>{{& email}}</td>
+        <tr><td>City</td><td>{{& city}}</td>
+        <tr><td>Phone</td><td>{{& phone}}</td>
+        <tr><td>Resume</td><td>{{& resumeLink}}</td>
+    </table>
 
-    {{& status}}
+    <p>{{& status}}</p>
 
-    ## Summary
-
+    <h2>Summary</h2>
     {{#summaryStatements}}
-    {{& .}}
-
+    <p>{{& .}}</p>
     {{/summaryStatements}}
-    ## Experience
 
+    <h2>Experience</h2>
     {{#experience}}
-    #### {{& name}}
-
-    *{{& title}} - {{& location}} - {{& time}}*
-
-    > {{& companySummary}}
-
+    <h4>{{& name}}</h4>
+    <em>{{& title}} - {{& location}} - {{& time}}</em>
+    <blockquote>{{& companySummary}}</blockquote>
     {{#narrative}}
-    {{& .}}
-
+    <p>{{& .}}</p>
     {{/narrative}}
     {{/experience}}
-    ## Education
-
-    *{{& education.where}} - {{& education.what}} - {{& education.when}}*
-
-    {{& education.statement}}
+    
+    <h2>Education</h2>
+    <em>{{& education.where}} - {{& education.what}} - {{& education.when}}</em>
+    <p>{{& education.statement}}</p>
 </body>
 </html>
