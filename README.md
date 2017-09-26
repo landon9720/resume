@@ -1,9 +1,12 @@
 # Landon Kuhn
 
-    Email  : [landon9720@gmail.com](mailto:landon9720@gmail.com)
-    City   : Portland, Oregon, USA
-    Phone  : 971-645-5501
-    Resume : [http://landon9720.com](http://landon9720.com)
+Email: [landon9720@gmail.com](mailto:landon9720@gmail.com)
+
+City: Portland, Oregon, USA
+
+Phone: 971-645-5501
+
+Resume: [http://landon9720.com](http://landon9720.com)
 
 I am currently Software Architect at Sunsama ([www.sunsama.com](http://www.sunsama.com)).
 
