@@ -3,7 +3,7 @@
     "city": "Portland, Oregon, USA",
     "phone": "971-645-5501",
     "resumeLink": "https://github.com/landon9720/resume",
-    "status": "I am currently Software Architect at [Sunsama](https://sunsama.com).",
+    "status": "I am currently Software Architect at Sunsama (www.sunsama.com).",
     "summaryStatements": [
         "I am a full-stack software engineer experienced in web and mobile application development, web APIs and services, data processing, storage, and analytics. I work at all stages of software development: requirements, architecture, implementation, test, deployment, operation, monitoring, and support.",
         "I develop and operate production software in languages C, C++, C#, Java, JavaScript, Objective-C, and Scala. I write for environments including web browsers, Linux, AWS, iOS, and PC.",
@@ -20,10 +20,10 @@
             "title": "Software Architect",
             "location": "Portland, Oregon",
             "time": "2015-2017",
-            "companySummary": "[MobileRQ](http://www.mobilerq.com) is a platform that enables targeted content delivery and push notifications for mobile and web applications. MobileRQ was acquired by [Kochava](https://www.kochava.com/) in 2017.",
+            "companySummary": "MobileRQ (www.mobilerq.com) is a platform that enables targeted content delivery and push notifications for mobile and web applications. MobileRQ was acquired by Kochava (kochava.com) in 2017.",
             "narrative": [
                 "I developed, operated, and supported MobileRQ's software products, including web applications and services on AWS, and SDKs for iOS and Android. My responsibilities included all aspects of the software stack, including front-end (jQuery, Bootstrap), web tier (Spring MVC/Jersey), data stores (RDS/DynamoDB/S3), and ETL (SQL/Spark). I worked with Scala, Java, and Amazon Web Services daily. I implemented major features and improvements including:",
-                "1. A distributed matching engine built on [Apache Ignite](https://ignite.apache.org/) that evaluates customer-defined predicates with customer data. Customer data features are defined using composed hierarchies of monadic transformations. Customer predicates are evaluated in real-time using distributed data flow and compute architecture. This implementation allows MobileRQ to meet a diversity of customer businesses and use-cases.",
+                "1. A distributed matching engine built on Apache Ignite (ignite.apache.org) that evaluates customer-defined predicates with customer data. Customer data features are defined using composed hierarchies of monadic transformations. Customer predicates are evaluated in real-time using distributed data flow and compute architecture. This implementation allows MobileRQ to meet a diversity of customer businesses and use-cases.",
                 "2. Architectural refractors, resulting in order-of-magnitude cost saving and reliability improvement."
             ]
         },
@@ -32,7 +32,7 @@
             "title": "Software Architect",
             "location": "Portland, Oregon",
             "time": "2013-2015",
-            "companySummary": "Janrain provides social identity and user profile management services for web sites and mobile applications.",
+            "companySummary": "Janrain (www.janrain.com) provides social identity and user profile management services for web sites and mobile applications.",
             "narrative": [
                 "Janrain products are implemented as services configured for individual customer requirements. At Janrain, I led the effort to unify configuration data in a single system of record. My contributions included design and implementation of services for managing configuration data, featuring a DSL for modeling and transforming data over a graph database with compile-time correctness guarantees.",
                 "Janrain services produce profile and event data from sources including social networks, web forms, and user behavior. At Janrain, I led the effort to build analytics products that leverage this data. My responsibilities included project architecture, vendor evaluations, and project planning and leadership.",
@@ -44,7 +44,7 @@
             "title": "Senior Engineer",
             "location": "Portland, Oregon",
             "time": "2012",
-            "companySummary": "Marin Software allows advertisers to manage online marketing campaigns across a variety of publishers, including Google and Facebook.",
+            "companySummary": "Marin Software (www.marinsoftware.com) allows advertisers to manage online marketing campaigns across a variety of publishers, including Google and Facebook.",
             "narrative": [
                 "I developed search features and performance improvements. I developed a data pipeline for asynchronously loading search and analytic data into the front-end web application."
             ]
@@ -67,7 +67,7 @@
             "title": "Senior Engineer",
             "location": "Portland, Oregon",
             "time": "2001-2009",
-            "companySummary": "Qualcomm designs, manufactures, and markets wireless telecommunications products and services based on its CDMA technology, and delivers integrated wireless applications and services.",
+            "companySummary": "Qualcomm (www.qualcomm.com) designs, manufactures, and markets wireless telecommunications products and services based on its CDMA technology, and delivers integrated wireless applications and services.",
             "narrative": [
                 "I advanced adoption of hosted web services using J2EE, AJAX, and related technologies. I lead technology and best practice adoption. I advanced the use of unit testing through advocacy, presentation, mentoring, and championing related techniques such as dependency injection and mock objects.",
                 "I created an engine for processing long-haul driver logs according to the FMCSA Hours-of-Service regulations. I implemented the engine in C for maximum source compatibility across platforms, and provided Java and .NET interop.",
@@ -79,7 +79,7 @@
         }
     ],
     "education": {
-        "where": "Portland State University",
+        "where": "Portland State University (www.pdx.edu)",
         "what": "BS Information Systems and Quantitative Analysis",
         "when": "2001",
         "statement": "Coursework included C, C++, C#/.NET, SQL, data structures and algorithms, data modeling, finance, marketing, and communication."

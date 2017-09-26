@@ -1,11 +1,11 @@
 # Landon Kuhn
 
-    Email  : landon9720@gmail.com
+    Email  : [landon9720@gmail.com](mailto:landon9720@gmail.com)
     City   : Portland, Oregon, USA
     Phone  : 971-645-5501
-    Resume : https://github.com/landon9720/resume
+    Resume : [https://github.com/landon9720/resume](https://github.com/landon9720/resume)
 
-I am currently Software Architect at [Sunsama](https://sunsama.com).
+I am currently Software Architect at Sunsama ([www.sunsama.com](http://www.sunsama.com)).
 
 ## Summary
 
@@ -31,11 +31,11 @@ My extracurricular programming interests include simulations, genetic algorithms
 
 *Software Architect - Portland, Oregon - 2015-2017*
 
-> [MobileRQ](http://www.mobilerq.com) is a platform that enables targeted content delivery and push notifications for mobile and web applications. MobileRQ was acquired by [Kochava](https://www.kochava.com/) in 2017.
+> MobileRQ ([www.mobilerq.com](http://www.mobilerq.com)) is a platform that enables targeted content delivery and push notifications for mobile and web applications. MobileRQ was acquired by Kochava (kochava.com) in 2017.
 
 I developed, operated, and supported MobileRQ's software products, including web applications and services on AWS, and SDKs for iOS and Android. My responsibilities included all aspects of the software stack, including front-end (jQuery, Bootstrap), web tier (Spring MVC/Jersey), data stores (RDS/DynamoDB/S3), and ETL (SQL/Spark). I worked with Scala, Java, and Amazon Web Services daily. I implemented major features and improvements including:
 
-1. A distributed matching engine built on [Apache Ignite](https://ignite.apache.org/) that evaluates customer-defined predicates with customer data. Customer data features are defined using composed hierarchies of monadic transformations. Customer predicates are evaluated in real-time using distributed data flow and compute architecture. This implementation allows MobileRQ to meet a diversity of customer businesses and use-cases.
+1. A distributed matching engine built on Apache Ignite (ignite.apache.org) that evaluates customer-defined predicates with customer data. Customer data features are defined using composed hierarchies of monadic transformations. Customer predicates are evaluated in real-time using distributed data flow and compute architecture. This implementation allows MobileRQ to meet a diversity of customer businesses and use-cases.
 
 2. Architectural refractors, resulting in order-of-magnitude cost saving and reliability improvement.
 
@@ -43,7 +43,7 @@ I developed, operated, and supported MobileRQ's software products, including web
 
 *Software Architect - Portland, Oregon - 2013-2015*
 
-> Janrain provides social identity and user profile management services for web sites and mobile applications.
+> Janrain ([www.janrain.com](http://www.janrain.com)) provides social identity and user profile management services for web sites and mobile applications.
 
 Janrain products are implemented as services configured for individual customer requirements. At Janrain, I led the effort to unify configuration data in a single system of record. My contributions included design and implementation of services for managing configuration data, featuring a DSL for modeling and transforming data over a graph database with compile-time correctness guarantees.
 
@@ -55,7 +55,7 @@ Janrain manages engineering projects using the methodologies of scrum, continuou
 
 *Senior Engineer - Portland, Oregon - 2012*
 
-> Marin Software allows advertisers to manage online marketing campaigns across a variety of publishers, including Google and Facebook.
+> Marin Software ([www.marinsoftware.com](http://www.marinsoftware.com)) allows advertisers to manage online marketing campaigns across a variety of publishers, including Google and Facebook.
 
 I developed search features and performance improvements. I developed a data pipeline for asynchronously loading search and analytic data into the front-end web application.
 
@@ -77,7 +77,7 @@ I provided project management, including work prioritization. I communicated wit
 
 *Senior Engineer - Portland, Oregon - 2001-2009*
 
-> Qualcomm designs, manufactures, and markets wireless telecommunications products and services based on its CDMA technology, and delivers integrated wireless applications and services.
+> Qualcomm ([www.qualcomm.com](http://www.qualcomm.com)) designs, manufactures, and markets wireless telecommunications products and services based on its CDMA technology, and delivers integrated wireless applications and services.
 
 I advanced adoption of hosted web services using J2EE, AJAX, and related technologies. I lead technology and best practice adoption. I advanced the use of unit testing through advocacy, presentation, mentoring, and championing related techniques such as dependency injection and mock objects.
 
@@ -93,6 +93,6 @@ I developed an ASP.NET web application that integrates customer data with vehicl
 
 ## Education
 
-*Portland State University - BS Information Systems and Quantitative Analysis - 2001*
+*Portland State University ([www.pdx.edu](http://www.pdx.edu)) - BS Information Systems and Quantitative Analysis - 2001*
 
 Coursework included C, C++, C#/.NET, SQL, data structures and algorithms, data modeling, finance, marketing, and communication.
