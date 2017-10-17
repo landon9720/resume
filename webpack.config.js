@@ -1,30 +1,31 @@
-const path = require('path');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
+const path = require('path')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
-  entry: './frontend.js',
+  entry: './frontend.jsx',
   output: {
     filename: './frontend.js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'dist'),
   },
   plugins: [   
     new CopyWebpackPlugin([
-      { from: './index.html', to: 'index.html' }
-    ])
+      { from: './index.html', to: 'index.html' },
+      { from: './data.json', to: 'data.json' },
+    ]),
   ],
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(jsx?)$/,
         exclude: /(node_modules)/,
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['env']
-          }
-        }
-      }
-    ]
+            presets: ['env'],
+          },
+        },
+      },
+    ],
   },
-  devtool: 'inline-cheap-source-map'
+  devtool: 'inline-cheap-source-map',
 }
