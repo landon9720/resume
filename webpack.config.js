@@ -1,5 +1,6 @@
-const path = require('path');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
+const webpack = require('webpack')
+const path = require('path')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
     entry: './frontend.jsx',
@@ -7,7 +8,10 @@ module.exports = {
         filename: './frontend.js',
         path: path.resolve(__dirname, 'dist'),
     },
-    plugins: [new CopyWebpackPlugin([{ from: './index.html', to: 'index.html' }])],
+    plugins: [
+        new CopyWebpackPlugin([{ from: './index.html', to: 'index.html' }]),
+        new webpack.optimize.UglifyJsPlugin(),
+    ],
     resolveLoader: {
         alias: {
             'autolinker-loader': path.join(__dirname, './autolinker-loader.js'),
@@ -27,5 +31,4 @@ module.exports = {
             },
         ],
     },
-    devtool: 'inline-cheap-source-map',
-};
+}
