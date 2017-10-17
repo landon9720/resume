@@ -26,4 +26,3 @@ const generateResume = (format, template, output) => {
 }
 
 generateResume('markdown', 'view_markdown.mustache', 'README.md')
-generateResume('html', 'view_html.mustache', 'resume.html')
