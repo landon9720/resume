@@ -36,7 +36,7 @@ My extracurricular programming interests include simulations, genetic algorithms
 
 I developed, operated, and supported MobileRQ's software products, including web applications and services on AWS, and SDKs for iOS and Android. My responsibilities included all aspects of the software stack, including front-end (jQuery, Bootstrap), web tier (Spring MVC/Jersey), data stores (RDS/DynamoDB/S3), and ETL (SQL/Spark). I worked with Scala, Java, and Amazon Web Services daily. I implemented major features and improvements including:
 
-1. A distributed matching engine built on Apache Ignite (ignite.apache.org) that evaluates customer-defined predicates with customer data. Customer data features are defined using composed hierarchies of monadic transformations. Customer predicates are evaluated in real-time using distributed data flow and compute architecture. This implementation allows MobileRQ to meet a diversity of customer businesses and use-cases.
+1. A distributed matching engine built on Apache Ignite that evaluates customer-defined predicates with customer data. Customer data features are defined using composed hierarchies of monadic transformations. Customer predicates are evaluated in real-time using distributed data flow and compute architecture. This implementation allows MobileRQ to meet a diversity of customer businesses and use-cases.
 
 2. Architectural refractors, resulting in order-of-magnitude cost saving and reliability improvement.
 
