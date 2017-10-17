@@ -25,10 +25,14 @@
     "react-dom": "^16.0.0"
   },
   "devDependencies": {
+    "autolinker": "^1.4.4",
+    "autolinks": "^0.1.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
+    "copy-webpack-plugin": "^4.1.1",
+    "json-loader": "^0.5.7",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.2"
   }

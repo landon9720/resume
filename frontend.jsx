@@ -6,24 +6,25 @@ class Root extends React.Component {
   render () {
     return (
       <div>
-        <h1>{data.name}</h1>
+        <h1 dangerouslySetInnerHTML={{__html: data.name}} />
         <p>
-          {data.city}<br/>
-          {data.phone}<br/>
-          {data.email}<br/>
-          {data.resumeLink}<br/>
+          <span dangerouslySetInnerHTML={{__html: data.city}} /><br/>
+          <span dangerouslySetInnerHTML={{__html: data.phone}} /><br/>
+          <span dangerouslySetInnerHTML={{__html: data.email}} /><br/>
+          <span dangerouslySetInnerHTML={{__html: data.resumeLink}} /><br/>
         </p>
-        <p>{data.status}</p>
+        
+        <p dangerouslySetInnerHTML={{__html: data.status}}/>
         
         <h2>Summary</h2>
-        {data.summaryStatements.map((s, i) => <p key={i}>{s}</p>)}
+        {data.summaryStatements.map((s, i) => <p key={i} dangerouslySetInnerHTML={{__html: s}} />)}
         
         <h2>Experience</h2>
         {data.experience.map((e, i) => <div key={i}>
           <h4>{e.name}</h4>
           <em>{e.title} - {e.location} - {e.time}</em>
-          <blockquote>{e.companySummary}</blockquote>
-          {e.narrative.map((n, i) => <p key={i}>{n}</p>)}
+          <blockquote dangerouslySetInnerHTML={{__html: e.companySummary}} />
+          {e.narrative.map((n, i) => <p key={i} dangerouslySetInnerHTML={{__html: n}} />)}
         </div>)}
       </div>
     )
