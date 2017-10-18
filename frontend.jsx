@@ -2,7 +2,6 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import data from './data.json'
 import { Route, HashRouter, Link } from 'react-router-dom'
-import ReactMarkdown from 'react-markdown'
 
 const App = () => (
   <div>
@@ -13,7 +12,7 @@ const App = () => (
 
 const Resume = () => (
     <div>
-        <h1 dangerouslySetInnerHTML={{ __html: data.name }} />
+        <h1><Link to="/helloworld" dangerouslySetInnerHTML={{ __html: data.name }} /></h1>
         <p>
             <span dangerouslySetInnerHTML={{ __html: data.city }} />
             <br />
@@ -61,7 +60,7 @@ const markdownFor = id => {
 
 const Page = props => (
   <div>
-    <ReactMarkdown source={markdownFor(props.match.params.id)} />
+    <div dangerouslySetInnerHTML={{__html: markdownFor(props.match.params.id) }} />
     <Link to="/">home</Link>
   </div>
 )
