@@ -26,6 +26,10 @@ class Root extends React.Component {
           <blockquote dangerouslySetInnerHTML={{__html: e.companySummary}} />
           {e.narrative.map((n, i) => <p key={i} dangerouslySetInnerHTML={{__html: n}} />)}
         </div>)}
+
+        <h2>Education</h2>
+        <em><span dangerouslySetInnerHTML={{__html: data.education.where}}/> - {data.education.what} - {data.education.when}</em>
+        <p dangerouslySetInnerHTML={{ __html: data.education.statement}} />
       </div>
     )
   }

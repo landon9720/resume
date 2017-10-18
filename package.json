@@ -4,10 +4,9 @@
   "description": "Resume and work-related landing spot for Landon Kuhn.",
   "main": "build.js",
   "scripts": {
-    "build": "node build.js",
+    "build": "node build.js; webpack -p",
     "deploy": "aws s3 sync --acl public-read --delete ./dist/ s3://landon9720.com/",
-    "webpack": "webpack -p",
-    "serve": "webpack-dev-server --content-base dist/"
+    "serv": "webpack-dev-server --content-base dist/"
   },
   "repository": {
     "type": "git",
