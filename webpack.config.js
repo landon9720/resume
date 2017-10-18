@@ -27,6 +27,19 @@ module.exports = {
                 exclude: /(node_modules)/,
                 loader: ['json-loader', 'autolinker-loader'],
             },
+            {
+                test: /\.md$/,
+                use: [
+                    {
+                        loader: "html-loader"
+                    },
+                    {
+                        loader: "markdown-loader",
+                        options: {
+                        },
+                    },
+                ],
+            },
         ],
     },
 }

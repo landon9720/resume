@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import data from './data.json'
-import { Route, HashRouter } from 'react-router-dom'
+import { Route, HashRouter, Link } from 'react-router-dom'
+import ReactMarkdown from 'react-markdown'
 
 const App = () => (
   <div>
@@ -50,9 +51,15 @@ const Resume = () => (
     </div>
 )
 
+const markdownFor = id => {
+    console.log('id', id);
+    return require('./pages/' + id + '.md')
+}
+
 const Page = props => (
   <div>
-    Hi {props.match.params.id}
+    <ReactMarkdown source={markdownFor(props.match.params.id)} />
+    <Link to="/">back</Link>
   </div>
 )
 
