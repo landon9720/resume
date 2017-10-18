@@ -52,14 +52,17 @@ const Resume = () => (
 )
 
 const markdownFor = id => {
-    console.log('id', id);
-    return require('./pages/' + id + '.md')
+    try {
+        return require('./pages/' + id + '.md')
+    } catch (e) {
+        return '404'
+    }
 }
 
 const Page = props => (
   <div>
     <ReactMarkdown source={markdownFor(props.match.params.id)} />
-    <Link to="/">back</Link>
+    <Link to="/">home</Link>
   </div>
 )
 
