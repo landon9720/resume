@@ -1,0 +1,33 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    max-width: 675px;
+    min-width: 300px;
+    margin: auto;
+    padding: 10px;
+    color: #555;
+}
+h1, h2, h3, h4 {
+    font-family: 'Roboto Slab', serif;
+    color: #333;
+}
+a, a:visited, a:hover, a:active {
+    color: #333;
+}
+a, a:visited {
+    text-decoration-color: #ccc;
+}
+a:hover, a:active {
+    text-decoration-color: rgb(58, 136, 27);
+} 
+p {
+    text-align: justify;
+}
+img {
+    max-width: 300px;
+}
+li {
+    margin: .5em;
+}
+.abc {
+    pointer-events: none;
+}

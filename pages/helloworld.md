@@ -1,7 +1,7 @@
-Hello,
-======
+Hello, World
+============
 
-World
------
-
-By [Landon](/#readme)
+* [Resume](#/)
+* [List of links](#links)
+* [List of tunes](#tunes) 🎵
+* [Rat](#rat)

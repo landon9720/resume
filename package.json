@@ -4,9 +4,10 @@
   "description": "Resume and work-related landing spot for Landon Kuhn.",
   "main": "build.js",
   "scripts": {
-    "build": "node build.js; webpack -p",
+    "build": "webpack -p --display-modules",
     "deploy": "aws s3 sync --acl public-read --delete ./dist/ s3://landon9720.com/",
-    "serv": "webpack-dev-server --content-base dist/"
+    "serv": "webpack-dev-server --content-base dist/",
+    "clean": "rm -rf ./node_modules; rm -rf ./dist"
   },
   "repository": {
     "type": "git",
@@ -17,24 +18,30 @@
   "bugs": {
     "url": "https://github.com/landon9720/resume/issues"
   },
-  "homepage": "https://github.com/landon9720/resume#readme",
+  "homepage": "http://landon9720.com",
   "dependencies": {
-    "mustache": "^2.3.0",
+    "abcjs": "0.0.2",
+    "firebase": "^4.6.0",
+    "lodash": "^4.17.4",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
-    "autolinker": "^1.4.4",
-    "autolinks": "^0.1.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
+    "babel-plugin-transform-react-jsx-img-import": "^0.1.4",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
     "copy-webpack-plugin": "^4.1.1",
+    "css-loader": "^0.28.7",
+    "exports-loader": "^0.6.4",
+    "file-loader": "^1.1.5",
     "html-loader": "^0.5.1",
-    "json-loader": "^0.5.7",
     "markdown-loader": "^2.0.1",
+    "raw-loader": "^0.5.1",
+    "script-loader": "^0.7.2",
+    "style-loader": "^0.19.0",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.2"
   }
