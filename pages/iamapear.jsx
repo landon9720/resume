@@ -1,9 +1,14 @@
 import React from 'react'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import TextField from 'material-ui/TextField'
-import RaisedButton from 'material-ui/RaisedButton';
+import RaisedButton from 'material-ui/RaisedButton'
+import FlatButton from 'material-ui/FlatButton'
+import { Table, TableBody, TableHeader, TableHeaderColumn, TableRow, TableRowColumn } from 'material-ui/Table'
 import firebase from 'firebase'
 import _ from 'lodash'
+import ReactAutolinker from 'react-autolinker'
+import ReactMarkdown from 'react-markdown'
+import moment from 'moment'
 
 const firebase_options = {
     apiKey: 'AIzaSyCPyL7e6YqFNGVL-03g7iSvTPjND87eBzA',
@@ -21,10 +26,16 @@ export default class Iamapear extends React.Component {
             k: '',
             v: '',
             nodes: [],
+            error: {
+                k: null,
+                v: null,
+            },
         }
         this.handleChangeK = this.handleChangeK.bind(this)
         this.handleChangeV = this.handleChangeV.bind(this)
         this.handleSubmit = this.handleSubmit.bind(this)
+        this.copy = this.copy.bind(this)
+        this.maintainQuery = _.debounce(this.maintainQuery, 1000)
     }
 
     handleChangeK(event) {
@@ -36,57 +47,128 @@ export default class Iamapear extends React.Component {
     }
 
     handleSubmit(event) {
+        event.preventDefault()
+        if (_.isEmpty(this.state.k)) {
+            this.setState({ error: { k: 'required' } })
+            return
+        }
+        if (_.isEmpty(this.state.v)) {
+            this.setState({ error: { v: 'required' } })
+            return
+        }
+        this.setState({ k: '', v: '', error: { k: null, v: null } })
+        this.kEl.focus()
         firebase
             .database()
             .ref('node')
             .push({
-                created_at: new Date(),
-                key: this.state.k || new Date().toISOString(),
-                value: this.state.v || '',
+                created_at: new Date().toISOString(),
+                key: this.state.k,
+                value: this.state.v,
             })
-        event.preventDefault()
     }
 
     componentDidMount() {
-        firebase
-            .database()
-            .ref('node')
-            .orderByKey()
-            .limitToLast(100)
-            .on('value', snapshot => this.setState({ nodes: snapshot.val() }))
+        this.maintainQuery()
+    }
+
+    componentDidUpdate() {
+        if (this.state.error.k) {
+            this.kEl.focus()
+        } else if (this.state.error.v) {
+            this.vEl.focus()
+        }
+        this.maintainQuery()
+    }
+
+    maintainQuery() {
+        if (this.state.k !== this.pendingK) {
+            this.pendingK = this.state.k
+            if (this.pendingF) {
+                this.pendingRef.off('value', this.pendingF)
+                delete this.pendingF
+                delete this.pendingRef
+            }
+            this.pendingF = snapshot => this.setState({ nodes: snapshot.val() })
+            const nodeRef = firebase.database().ref('node')
+            this.pendingRef = _.isEmpty(this.state.k)
+                ? nodeRef.orderByKey()
+                : nodeRef.orderByChild('key').equalTo(this.state.k)
+            this.pendingRef.limitToLast(100).on('value', this.pendingF)
+        }
+    }
+
+    copy(node) {
+        this.setState({
+            k: node.key,
+            v: node.value,
+        })
+        this.vEl.focus()
     }
 
     render() {
+        const k = (
+            <TextField
+                name="key"
+                floatingLabelText="Key"
+                value={this.state.k}
+                onChange={this.handleChangeK}
+                fullWidth={true}
+                errorText={this.state.error.k}
+                ref={el => (this.kEl = el)}
+                onKeyPress={e => (e.key === 'Enter' && !_.isEmpty(this.state.k) ? this.vEl.focus() : undefined)}
+                autoFocus
+            />
+        )
+        const v = (
+            <TextField
+                name="value"
+                floatingLabelText="Value"
+                multiLine={true}
+                value={this.state.v}
+                onChange={this.handleChangeV}
+                fullWidth={true}
+                errorText={this.state.error.v}
+                ref={el => (this.vEl = el)}
+            />
+        )
+        const b = <RaisedButton label="Say" onClick={this.handleSubmit} primary={true} fullWidth={true} />
         return (
             <MuiThemeProvider>
                 <div>
-                    <TextField
-                        name="key"
-                        hintText="say something, URL, etc"
-                        floatingLabelText="Key"
-                        value={this.state.k}
-                        onChange={this.handleChangeK}
-                        fullWidth={true}
-                    />
-                    <br />
-                    <TextField
-                        name="value"
-                        hintText="anything at all"
-                        floatingLabelText="Value"
-                        multiLine={true}
-                        rows={1}
-                        rowsMax={10}
-                        value={this.state.v}
-                        onChange={this.handleChangeV}
-                        fullWidth={true} 
-                    />
-                    <br />
-                    <RaisedButton label="Say" fullWidth={true} onClick={this.handleSubmit} primary={true} />
-                    {_.map(this.state.nodes, (node, id) => (
-                        <div key={id}>
-                            key: {node.key} value: {node.value}
-                        </div>
-                    )).reverse()}
+                    <h1 onClick={() => this.setState({ k: '', v: ''})} style={{cursor: 'pointer'}}> 🍐</h1>
+                    <Table multiSelectable={false} adjustForCheckbox={false}>
+                        <TableBody displayRowCheckbox={false}>
+                            <TableRow key="input" selectable={false}>
+                                <TableHeaderColumn>{k}</TableHeaderColumn>
+                                <TableHeaderColumn>{v}</TableHeaderColumn>
+                                <TableHeaderColumn>{b}</TableHeaderColumn>
+                                <TableHeaderColumn />
+                            </TableRow>
+                            {_.map(this.state.nodes, (node, id) => (
+                                <TableRow key={id}>
+                                    <TableRowColumn>
+                                        <ReactAutolinker text={node.key} />
+                                    </TableRowColumn>
+                                    <TableRowColumn>
+                                        <ReactMarkdown source={node.value} />
+                                    </TableRowColumn>
+                                    <TableRowColumn>
+                                        {moment.duration(moment(node.created_at || 0).diff()).humanize()} ago
+                                    </TableRowColumn>
+                                    <TableRowColumn>
+                                        <FlatButton
+                                            onClick={e => {
+                                                e.stopPropagation()
+                                                this.copy(node)
+                                            }}>
+                                            ☺
+                                        </FlatButton>
+                                    </TableRowColumn>
+                                </TableRow>
+                            )).reverse()}
+                        </TableBody>
+                    </Table>
                 </div>
             </MuiThemeProvider>
         )
