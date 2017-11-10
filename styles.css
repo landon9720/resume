@@ -1,0 +1,67 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.2em;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(248, 248, 248);
+    color: rgb(65, 75, 65)
+}
+h1, h2, h3, h4 {
+    font-family: 'Roboto Slab', serif;
+    color: #333;
+    margin: 20px 0;
+}
+h1 {
+    font-size: xx-large;
+}
+h2 {
+    font-size: x-large;
+}
+h3 {
+    font-size: large;
+}
+a, a:visited, a:hover, a:active {
+    color: #333;
+}
+a, a:visited {
+    text-decoration-color: #ccc;
+}
+a:hover, a:active {
+    text-decoration-color: rgb(58, 136, 27);
+} 
+p {
+    margin: 10px 0;
+}
+strong {
+    font-weight: bold;
+}
+em {
+    font-style: italic;
+}
+blockquote {
+    margin: 10px 20px;
+    font-style: italic; 
+}   
+small {
+    font-size: small;
+}
+img {
+    width: 300px;
+}
+ul, ol {
+    list-style: initial;
+}
+li {
+    margin: 10px 20px;
+    list-style-position: inside;
+}
+code {
+    font-family: monospace;
+}
+.resume {
+    text-align: justify;
+}
+.abc {
+    pointer-events: none;
+}
