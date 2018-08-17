@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default () => (
     <div className="resume">
+        <h3 class="headline">Experienced web programmer/operator, ready to work.</h3>
         <h1>
             <Link to="/helloworld">Landon Kuhn</Link>
         </h1>
@@ -11,21 +12,17 @@ export default () => (
             <br />
             <Link to="/portland">Portland, Oregon, USA</Link>
             <br />
-            971-645-5501<br />
+            971-645-5501
+            <br />
             <Link to="/landon9720">landon9720.com</Link>
             <br />
         </p>
         <h2>Summary</h2>
         <p>
-            I invent, build, and operate web software. I am a prolific full-time coder. I focus on the right problem at
-            the right time, enabled by experience and judgement. I find and highlight the direct path. I unambiguate and
-            deliver.
+            I invent, build, and operate web software. I am a coder, operator, and full-time team-member. I work in the
+            domain of web software development and operation. I have professional experience in programing languages
+            including:
         </p>
-        <p>
-            I work in the domain of web software development and operation: requirements, architecture, implementation,
-            test, deployment, operation, monitoring, scaling, and support.
-        </p>
-        <p>I have professional experience in programing languages including:</p>
         <ul>
             <li>JavaScript</li>
             <li>Java, Scala</li>
@@ -34,30 +31,33 @@ export default () => (
             <li>C, C++</li>
             <li>C#</li>
         </ul>
+        <p>I write for runtime environments including AWS, web browsers, mobile devices, and PC.</p>
         <p>
-            I write for runtime environments including Amazon Web Services (AWS), web browsers, mobile devices, and PC.
+            I practice iterative development, unit testing, continuous integration, and infrastructure-as-code. I think
+            in functions, types, and layers of abstraction. Every day I use Chrome, Git, and Visual Studio Code. My
+            programming hobbies include simulations, genetic algorithms, and computer-generated music.
         </p>
-        <p>
-            I practice iterative development, unit testing, continuous integration, and automated deployment. I prefer
-            functional programming. Tools I use include Visual Studio, Visual Studio Code, Intellij IDEA, Eclipse,
-            ClearCase, Git, Perforce, Subversion, JIRA, Trello, Jenkins, Maven, SBT, Bash, Google Chrome, and Slack.
-        </p>
-        <p>My programming hobbies include simulations, genetic algorithms, and computer-generated music.</p>
         <h2>Experience</h2>
         <h3>Sunsama</h3>
         <em>Software Architect - Portland, Oregon - 2017-2018</em>
         <blockquote>
-            <a href="https://sunsama.com">Sunsama</a> is a team calendar and task management application.
+            <a href="https://sunsama.com">Sunsama</a> is a unique team task management application. In 15 months, our
+            team of 4 created a unique software product with an active and growing user base.
         </blockquote>
-        <p>At Sunsama I work the entire development and operational stack, including:</p>
+        <p>At Sunsama I worked the entire development and operational stack, including:</p>
         <ol>
-            <li>Component and container-level JSX (React)</li>
-            <li>Front-end API (NodeJS)</li>
-            <li>Data transport for real-time multi-user rich-text editor (Socket.io)</li>
+            <li>
+                User interface, with real time reactivity across all connected browsers (React, GraphQL, NodeJS, Meteor,
+                Chrome)
+            </li>
+            <li>Back-end services (Meteor, Web Sockets, MongoDB, AWS SQS)</li>
+            <li>API integration (Google Calendar, OAuth)</li>
             <li>Native desktop application (Electron)</li>
-            <li>Build and deployment automation (Jenkins, Docker, Bash, EC2 Container Service)</li>
+            <li>Infrastructure, build, and deployment (AWS, EC2, ECS, CloudWatch, Terraform, Jenkins, Docker, Bash)</li>
             <li>Operational monitoring and emergency support</li>
-            <li>Software development process management (scrum)</li>
+            <li>Software development process management (Scrum, Kanban)</li>
+            <li>Team communications (Sunsama, Slack, Visual Studio Live Share)</li>
+            <li>Answering the question: what do we build next?</li>
         </ol>
         <h3>MobileRQ</h3>
         <em>Software Architect - Portland, Oregon - 2015-2017</em>
@@ -72,13 +72,13 @@ export default () => (
         <ol>
             <li>User interface (HTML, CSS, jQuery, Bootstrap)</li>
             <li>Front-end API (Java, AWS Elastic Beanstalk)</li>
-            <li>Data storage and transformation (Scala, Apache Spark, RDS/PostgreSQL, DynamoDB, S3)</li>
+            <li>Data storage and transform (Scala, Apache Spark, RDS/PostgreSQL, DynamoDB, S3)</li>
         </ol>
         <p>I implemented major features and improvements including:</p>
         <ol>
             <li>
-                A distributed matching engine that evaluates customer-defined predicates with customer data (Scala,
-                Apache Ignite)
+                Distributed matching engine that evaluates customer-defined predicates with customer data (Scala, Apache
+                Ignite)
             </li>
             <li>
                 Architectural refractors, resulting in order-of-magnitude cost saving and reliability improvement
@@ -99,8 +99,8 @@ export default () => (
         <p>
             Janrain services produce profile and event data from sources including social networks, web forms, and user
             action. At Janrain, I built analytics products that leverage this data. My responsibilities included
-            architecture, vendor evaluations, and project planning and leadership. I implemented ETL and data access
-            (Scala, Apache Spark, AWS EMR, S3, AWS Redshift).
+            architecture, vendor evaluations, and project planning and leadership. I implemented ETL, data access, and
+            visualization (Scala, Apache Spark, AWS EMR, S3, AWS Redshift, SQL).
         </p>
         <p>
             Janrain manages engineering projects using the methodologies of scrum, continuous delivery, and iterative
@@ -138,8 +138,8 @@ export default () => (
             <li>Data storage and transformation (MySQL, PostgreSQL)</li>
             <li>Device communication scripting (Java/JavaScript)</li>
             <li>
-                Search and reporting features, including data indexing engine, custom query language, and user interface
-                (Scala, Solr)
+                Search and reporting features, including data indexing engine, custom query language, with text parser
+                and user interface (Scala, Solr)
             </li>
         </ol>
         <h3>QUALCOMM, Inc.</h3>

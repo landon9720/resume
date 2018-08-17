@@ -62,6 +62,10 @@ code {
 .resume {
     text-align: justify;
 }
+.headline {
+    text-align: center;
+    margin: 40px 10px;
+}
 .abc {
     pointer-events: none;
 }
