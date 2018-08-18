@@ -5,9 +5,12 @@ body {
     margin: auto;
     padding: 10px;
     background-color: rgb(249, 250, 249);
-    color: rgb(65, 75, 65)
+    color: rgb(65, 75, 65);
 }
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: 'Roboto Slab', serif;
     color: #333;
     margin: 20px 0;
@@ -21,17 +24,22 @@ h2 {
 h3 {
     font-size: large;
 }
-a, a:visited, a:hover, a:active {
+a,
+a:visited,
+a:hover,
+a:active {
     color: #333;
 }
-a, a:visited {
+a,
+a:visited {
     text-decoration-color: #ccc;
 }
-a:hover, a:active {
+a:hover,
+a:active {
     text-decoration-color: rgb(58, 136, 27);
-} 
+}
 p {
-    margin: .6em 0;
+    margin: 0.6em 0;
 }
 strong {
     font-weight: bold;
@@ -41,15 +49,16 @@ em {
 }
 blockquote {
     margin: 10px 20px;
-    font-style: italic; 
-}   
+    font-style: italic;
+}
 small {
     font-size: small;
 }
 img {
     width: 300px;
 }
-ul, ol {
+ul,
+ol {
     list-style: initial;
 }
 li {
@@ -65,6 +74,11 @@ code {
 .headline {
     text-align: center;
     margin: 40px 10px;
+}
+@media print {
+    .headline {
+        display: none !important;
+    }
 }
 .abc {
     pointer-events: none;

@@ -22,6 +22,7 @@ I have significant experience with every item on this list.
 * Docker
 * DOM
 * DSL (Domain-specific language)
+* Elasticsearch
 * Electron
 * Genetic algorithms
 * Git
@@ -36,6 +37,7 @@ I have significant experience with every item on this list.
 * Jenkins
 * jQuery
 * JUnit
+* Lucene
 * macOS
 * Meteor
 * Microsoft .NET
@@ -54,6 +56,7 @@ I have significant experience with every item on this list.
 * React
 * REST
 * Scala
+* Solr
 * Spring Framework
 * Struts
 * Terraform
