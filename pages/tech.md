@@ -12,6 +12,7 @@ I have significant experience with every item on this list.
 * AWS Elastic Beanstalk
 * AWS Kinesis
 * AWS RDS
+* AWS Redshift
 * AWS S3
 * AWS SQS
 * Bash
@@ -24,21 +25,26 @@ I have significant experience with every item on this list.
 * DSL (Domain-specific language)
 * Elasticsearch
 * Electron
+* Functional programming
 * Genetic algorithms
 * Git
 * Google Calendar API
 * Google Chrome
+* Google Firebase
 * Google Maps API
 * GraphQL
+* Hibernate
 * HTML
 * HTTP
 * Java
 * JavaScript
 * Jenkins
 * jQuery
+* JSON
 * JUnit
 * Lucene
 * macOS
+* Markdown
 * Meteor
 * Microsoft .NET
 * Microsoft MFC
@@ -49,7 +55,9 @@ I have significant experience with every item on this list.
 * MySQL
 * NodeJS
 * OAuth
+* Object-oriented programming
 * Objective-C
+* Parser combinator
 * Perl
 * PostgreSQL
 * Python
@@ -58,10 +66,12 @@ I have significant experience with every item on this list.
 * Scala
 * Solr
 * Spring Framework
+* SQL
 * Struts
 * Terraform
 * Tomcat
 * Unix
 * Web sockets
+* Webpack
 * Windows
 * XML
