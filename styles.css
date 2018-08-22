@@ -83,3 +83,15 @@ code {
 .abc {
     pointer-events: none;
 }
+textarea {
+    font-family: monospace;
+    border: 0;
+    background: inherit;
+    resize: none;
+    border: none;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}

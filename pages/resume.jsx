@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default () => (
     <div className="resume">
-        <h3 class="headline">Experienced web programmer/operator, ready to work.</h3>
+        <h3 className="headline">Experienced web programmer/operator, ready to work.</h3>
         <h1>
             <Link to="/helloworld">Landon Kuhn</Link>
         </h1>

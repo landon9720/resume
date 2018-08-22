@@ -3,6 +3,7 @@ Tech List
 
 I have significant experience with every item on this list.
 
+* 2D graphics
 * AJAX
 * Apache Spark
 * AWS CloudWatch
@@ -42,6 +43,7 @@ I have significant experience with every item on this list.
 * jQuery
 * JSON
 * JUnit
+* Lodash
 * Lucene
 * macOS
 * Markdown
@@ -70,7 +72,9 @@ I have significant experience with every item on this list.
 * Struts
 * Terraform
 * Tomcat
+* Underscore
 * Unix
+* Web Audio API
 * Web sockets
 * Webpack
 * Windows
