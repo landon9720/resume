@@ -85,7 +85,9 @@ code {
 }
 textarea {
     font-family: monospace;
+    font-size: 13px;
     border: 0;
+    padding: 0;
     background: inherit;
     resize: none;
     border: none;
@@ -94,4 +96,5 @@ textarea {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
+    color: inherit;
 }
