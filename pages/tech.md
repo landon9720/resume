@@ -42,6 +42,7 @@ I have significant experience with every item on this list.
 * Jenkins
 * jQuery
 * JSON
+* JSP
 * JUnit
 * Lodash
 * Lucene
@@ -66,6 +67,7 @@ I have significant experience with every item on this list.
 * React
 * REST
 * Scala
+* Servlet
 * Solr
 * Spring Framework
 * SQL
