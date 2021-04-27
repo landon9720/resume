@@ -1,4 +1,3 @@
-import _ from 'lodash'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { Route, Switch, HashRouter, Link } from 'react-router-dom'
@@ -38,7 +37,7 @@ class Page extends React.Component {
             <div>
                 <PageComponent />
                 <p className="nav">
-                    {!_(homeIconBlacklist).includes(window.location.hash) ? (
+                    {!homeIconBlacklist.includes(window.location.hash) ? (
                             <span>🏠 <Link to="/helloworld">home</Link></span>
                     ) : null}
                 </p>

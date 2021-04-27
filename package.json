@@ -5,7 +5,7 @@
   "main": "",
   "scripts": {
     "build": "webpack -p --display-modules",
-    "deploy": "aws s3 sync --acl public-read --delete ./dist/ s3://landon9720.com/",
+    "deploy": "aws s3 sync --acl public-read --delete ./dist/ s3://landon9720.com/ --cache-control no-cache",
     "serv": "webpack-dev-server --content-base dist/ --host 0.0.0.0",
     "clean": "rm -rf ./node_modules; rm -rf ./dist"
   },
@@ -17,9 +17,6 @@
   "license": "UNLICENSED",
   "homepage": "http://landon9720.com",
   "dependencies": {
-    "abcjs": "0.0.2",
-    "autolinker": "^1.4.4",
-    "lodash": "^4.17.10",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-markdown": "^2.5.0",

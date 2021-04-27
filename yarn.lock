@@ -6,12 +6,6 @@ abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
 
-abcjs@0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/abcjs/-/abcjs-0.0.2.tgz#0e67b3c1b6684ea9b15ee8db97c533e36c501558"
-  dependencies:
-    midi "git://github.com/paulrosen/MIDI.js.git#abcjs"
-
 accepts@~1.3.4:
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/accepts/-/accepts-1.3.5.tgz#eb777df6011723a3b14e8a72c0805c8e86746bd2"
@@ -237,10 +231,6 @@ asynckit@^0.4.0:
 atob@^2.0.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.0.3.tgz#19c7a760473774468f20b2d2d03372ad7d4cbf5d"
-
-autolinker@^1.4.4:
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/autolinker/-/autolinker-1.6.2.tgz#67ae9da272e808e0d8eb8e02cbc8cde303947457"
 
 autoprefixer@^6.3.1:
   version "6.7.7"
@@ -3103,10 +3093,6 @@ lodash@^4.13.1, lodash@^4.14.0, lodash@^4.17.2, lodash@^4.17.4:
   version "4.17.5"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.5.tgz#99a92d65c0272debe8c96b6057bc8fbfa3bed511"
 
-lodash@^4.17.10:
-  version "4.17.10"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
-
 loglevel@^1.4.1:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.6.1.tgz#e0fc95133b6ef276cdc8887cdaf24aa6f156f8fa"
@@ -3264,10 +3250,6 @@ micromatch@^3.1.4:
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
-
-"midi@git://github.com/paulrosen/MIDI.js.git#abcjs":
-  version "0.4.2"
-  resolved "git://github.com/paulrosen/MIDI.js.git#0763605ed954027201e66c179015ae4ea4f7d1d8"
 
 miller-rabin@^4.0.0:
   version "4.0.1"
