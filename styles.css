@@ -1,6 +1,7 @@
 body {
   font-family: "Source Sans Pro", serif;
   line-height: 1.5rem;
+  font-size: 10pt;
   max-width: 600px;
   margin: auto;
   padding: 1rem;
@@ -12,16 +13,16 @@ h2,
 h3,
 h4 {
   color: #333;
-  margin: 1rem 0;
+  margin: 0 0 1rem 0;
 }
 h1 {
-  font-size: xx-large;
+  font-size: 18pt;
 }
 h2 {
-  font-size: x-large;
+  font-size: 15pt;
 }
 h3 {
-  font-size: large;
+  font-size: 13pt;
 }
 a,
 a:visited,
@@ -53,6 +54,7 @@ blockquote {
 ul,
 ol {
   list-style: initial;
+  margin-bottom: 1rem;
 }
 li {
   margin: 0 20px;
@@ -64,7 +66,7 @@ code {
 @media print {
   body {
     max-width: unset;
-    padding: 6rem;
+    padding: 1cm;
   }
   .no-print {
     display: none;
