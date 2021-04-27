@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
+import Mandelbrot from "../Mandelbrot.jsx"
 
 export default () => (
   <div>
@@ -16,7 +17,7 @@ export default () => (
       <Link to="/landon9720">landon9720.com</Link>
       <br />
     </p>
-    <h2>Summary</h2>
+    <h2>Introduction</h2>
     <p>
       I invent, build, and operate applications of software technology. I am
       trained in business, and I am passionate about delivering value in the
@@ -57,7 +58,7 @@ export default () => (
       <a href="https://landon9720.bandcamp.com">make</a>{" "}
       <a href="https://soundcloud.com/landon9720">music.</a>
     </p>
-    <h2>Experience</h2>
+    <h2>Work Experience</h2>
     <h3>Formant</h3>
     <em>Senior Software Engineer ~ Portland, Oregon, 2018-2021</em>
     <blockquote>
@@ -265,5 +266,10 @@ export default () => (
       algorithms, computer networking, data modeling, database management,
       business, finance, marketing.
     </p>
+    <footer className="no-print">
+      <a href="https://github.com/landon9720/resume/blob/master/Mandelbrot.jsx">
+        <Mandelbrot />
+      </a>
+    </footer>
   </div>
 )
