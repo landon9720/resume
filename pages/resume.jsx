@@ -66,6 +66,12 @@ export default () => (
       visualization and export of telemetry data, management of fleets, user
       comments and annotations, and integration with external services.
     </blockquote>
+    <p>
+      Built product features covering the entire implementation stack, including
+      HTTP REST APIs (TypeScript, NodeJS), data transformation (Kafka), storage
+      and query (PostgreSQL). Built frontend UI for data visualization (React,
+      SVG), and system configuration.
+    </p>
     <ol>
       <li>
         Improved data ingestion to leverage realtime stream processing
