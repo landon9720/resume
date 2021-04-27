@@ -20,15 +20,19 @@ export default () => (
     <p>
       I invent, build, and operate applications of software technology. I am
       trained in business, and I am passionate about delivering value in the
-      form of deployed, operated, and continuously improving software systems. I
-      am a coder, operator, and full-time team-member. I support and mentor both
-      internal and external stakeholders, and team members. I work with
-      customers to derive and prioritized requirements. I work internally to
-      define deliverable work items, which I then implement in full or as part
-      of a team. I have significant experience in the domain of web applications
-      and services, and I consider myself a multiskilled Information Technology
-      contributor. I have professional experience programming in languages
-      including:
+      form of deployed, operated, and continuously improving software systems.
+      <span className="no-print">
+        {" "}
+        I am a coder, operator, and full-time team-member. I support and mentor
+        both internal and external stakeholders, and team members. I work with
+        customers to derive and prioritized requirements. I work internally to
+        define deliverable work items, which I then implement in full or as part
+        of a team. I have significant experience in the domain of web
+        applications and services, and I am a multiskilled Information
+        Technology contributor.
+      </span>{" "}
+      I have professional experience developing software in programming
+      languages including:
     </p>
     <ul>
       <li>TypeScript, JavaScript</li>
@@ -41,20 +45,17 @@ export default () => (
       </li>
     </ul>
     <p>
-      My code runs in environments including AWS, web browsers, mobile devices,
-      and personal computers.
+      Target environments including AWS, web browsers, mobile devices, and
+      personal computers.
     </p>
-    <p>
+    <p className="no-print">
       I practice iterative development, unit testing, clean code, continuous
       integration, and infrastructure-as-code. Every day I use Chrome, Git, and
       Visual Studio Code. My programming hobbies include simulations, genetic
-      algorithms, and computer-generated music.
-      <span className="no-print">
-        {" "}
-        I am a husband, and father of two teens. When not working, I{" "}
-        <a href="https://landon9720.bandcamp.com">make</a>{" "}
-        <a href="https://soundcloud.com/landon9720">music.</a>
-      </span>
+      algorithms, and computer-generated music. I am a husband, and father of
+      two teens. When not working, I{" "}
+      <a href="https://landon9720.bandcamp.com">make</a>{" "}
+      <a href="https://soundcloud.com/landon9720">music.</a>
     </p>
     <h2>Experience</h2>
     <h3>Formant</h3>
@@ -67,46 +68,41 @@ export default () => (
       comments and annotations, and integration with external services.
     </blockquote>
     <p>
-      Built product features covering the entire implementation stack, including
-      HTTP REST APIs (TypeScript, NodeJS), data transformation (Kafka), storage
-      and query (PostgreSQL). Built frontend UI for data visualization (React,
-      SVG), and system configuration.
+      Built and supported product features covering the entire software stack:
     </p>
     <ol>
       <li>
         Improved data ingestion to leverage realtime stream processing
-        frameworks (initially Kinesis, later Kafka) to improve web service
-        performance and system scalability, and to implement data aggregation
-        and export to S3.
+        (initially Kinesis, later Kafka) to improve web service performance and
+        system scalability, and to implement data aggregation and export to S3.
       </li>
       <li>
-        Implemented new product features: Comments, and Annotations. These
-        features allow robot telemetry data to be augmented with user input, and
-        associated with records in external systems (Google Sheets). I
-        implemented frontend user-input and configuration components (React),
-        visualization and interaction with time-series data (SVG), APIs
-        (TypeScript, NodeJS), database modeling and optimization (PostgreSQL).
+        Implemented Annotations feature, which allow robot telemetry to be
+        augmented with user input, and associated with records in external
+        systems (Google Sheets). Implemented frontend data collection and
+        configuration components (React), visualization and interaction with
+        time-series data (SVG), APIs (TypeScript, NodeJS), database modeling and
+        optimization (PostgreSQL).
       </li>
       <li>
-        Implemented new product feature: Fleets, which is a higher level entity
-        for organizing robot data. Implemented data models, APIs, configuration
-        pages and incorporation throughout the frontend. Also implemented Fleet
-        dashboard, which is a real-time display of metrics for all robots in the
-        Fleet. Project work included frontend, APIs, data model, and background
-        data preparation (React, TypeScript, NodeJS, Kafka, PostgreSQL).
+        Implemented Fleets feature, which is used to organize robot data.
+        Implemented data models, APIs, configuration pages and integration
+        throughout the frontend. Implemented Fleet dashboard, which is a
+        realtime display of robot metrics. Project work included frontend, APIs,
+        data model, and background data processing (React, TypeScript, NodeJS,
+        Kafka, PostgreSQL).
       </li>
       <li>
-        Implemented new product feature: Commands, which allows messages to be
-        sent from Formant cloud to robots. Commands are used to invoke custom
-        behavior, and can be triggered manually by user action, or automatically
-        by continuous evaluation of user-inputted predicates against ingested
-        robot telemetry data. I implemented data models, APIs, and the frontend
-        for configuring, sending, and reviewing Commands.
+        Implemented Commands, which allows messages to be sent from Formant
+        cloud to robots, are used to invoke custom behavior, and are triggered
+        manually or by evaluation of ingested robot telemetry. Implemented data
+        models, APIs, and frontend for configuring, sending, and reviewing
+        Commands.
       </li>
       <li>
         Implemented infrastructure observability improvements: collection of
         metrics, and integration external services (CloudWatch, DataDog). Allow
-        monitoring for system failures identification of performance hot-spots.
+        monitoring for system failures identification of performance hotspots.
         Includes continuous automated integration testing of full application
         stack.
       </li>
