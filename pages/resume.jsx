@@ -19,12 +19,12 @@ export default () => (
     </p>
     <h2>Introduction</h2>
     <p>
-      I invent, build, and operate applications of software technology. I am
+      I design, implement, and operate applications of software technology. I am
       trained in business, and I am passionate about delivering value in the
       form of deployed, operated, and continuously improving software systems.
       <span className="no-print">
         {" "}
-        I am a coder, operator, and full-time team-member. I support and mentor
+        I am a programmer, operator, and full-time team-member. I support and mentor
         both internal and external stakeholders, and team members. I work with
         customers to derive and prioritized requirements. I work internally to
         define deliverable work items, which I then implement in full or as part
@@ -46,7 +46,7 @@ export default () => (
       </li>
     </ul>
     <p>
-      Target environments including AWS, web browsers, mobile devices, and
+      Target environments include AWS, web browsers, mobile devices, and
       personal computers.
     </p>
     <p className="no-print">
@@ -56,17 +56,19 @@ export default () => (
       algorithms, and computer-generated music. I am a husband, and father of
       two teens. When not working, I{" "}
       <a href="https://landon9720.bandcamp.com">make</a>{" "}
-      <a href="https://soundcloud.com/landon9720">music.</a>
+      <a href="https://soundcloud.com/landon9720">music</a>.
     </p>
     <h2>Work Experience</h2>
-    <h3>Formant</h3>
-    <em>Senior Software Engineer ~ Portland, Oregon, 2018-2021</em>
+    <h3>
+      <a href="https://formant.io">Formant</a> • Senior Software Engineer •
+      2018-2021
+    </h3>
     <blockquote>
-      <a href="https://formant.io">Formant</a> is a platform that connects
-      robots and people. Formant provides data collection, visualization, and
-      controls for robots and related devices. Formant web application includes
-      visualization and export of telemetry data, management of fleets, user
-      comments and annotations, and integration with external services.
+      Formant is a platform that connects robots and people. Formant provides
+      data collection, visualization, and controls for robots and related
+      devices. Formant web application includes visualization and export of
+      telemetry data, management of fleets, user comments and annotations, and
+      integration with external services.
     </blockquote>
     <p>
       Built and supported product features covering the entire software stack:
@@ -75,7 +77,8 @@ export default () => (
       <li>
         Improved data ingestion to leverage realtime stream processing
         (initially Kinesis, later Kafka) to improve web service performance and
-        system scalability, and to implement data aggregation and export to S3.
+        system scalability, and to implement data aggregation and export to S3
+        (TypeScript, NodeJS).
       </li>
       <li>
         Implemented Annotations feature, which allow robot telemetry to be
@@ -114,12 +117,13 @@ export default () => (
       </li>
       <li>Team communications (JIRA, Slack)</li>
     </ol>
-    <h3>Sunsama</h3>
-    <em>Software Architect ~ Portland, Oregon ~ 2017-2018</em>
+    <h3>
+      <a href="https://sunsama.com">Sunsama</a> • Software Architect • 2017-2018
+    </h3>
     <blockquote>
-      <a href="https://sunsama.com">Sunsama</a> is a unique team task management
-      application. In 15 months, our team of 4 created a unique software product
-      with an active and growing user base.
+      Sunsama is a unique team task management application. In 15 months, our
+      team of 4 created a unique software product with an active and growing
+      user base.
     </blockquote>
     <p>Developed and operated the entire software stack, including:</p>
     <ol>
@@ -138,12 +142,14 @@ export default () => (
       <li>Software development process management (Scrum, Kanban)</li>
       <li>Team communications (Sunsama, Slack)</li>
     </ol>
-    <h3>MobileRQ</h3>
-    <em>Software Architect ~ Portland, Oregon ~ 2015-2017</em>
+    <h3>
+      <a href="http://mobilerq.com">MobileRQ</a> • Software Architect •
+      2015-2017
+    </h3>
     <blockquote>
-      <a href="http://mobilerq.com">MobileRQ</a> enables targeted content
-      delivery and push notifications for mobile and web applications. MobileRQ
-      was acquired by <a href="http://kochava.com">Kochava</a> in 2017.
+      MobileRQ enables targeted content delivery and push notifications for
+      mobile and web applications. MobileRQ was acquired by{" "}
+      <a href="http://kochava.com">Kochava</a> in 2017.
     </blockquote>
     <p>
       Developed, operated, and supported MobileRQ's software products, including
@@ -169,11 +175,10 @@ export default () => (
         and reliability improvement (Scala, AWS Kinesis, AWS DynamoDB)
       </li>
     </ol>
-    <h3>Janrain</h3>
-    <em>Software Architect ~ Portland, Oregon ~ 2013-2015</em>
+    <h3>Janrain • Software Architect • 2013-2015</h3>
     <blockquote>
-      <a href="http://janrain.com">Janrain</a> provides social identity and user
-      profile management services for web sites and mobile applications.
+      Janrain provided social identity and user profile management services for
+      web sites and mobile applications.
     </blockquote>
     <p>
       Designed and implemented of services for managing configuration data,
@@ -186,20 +191,20 @@ export default () => (
       planning and leadership. Implemented ETL, data access, and visualization
       (Scala, Apache Spark, AWS EMR, S3, AWS Redshift, SQL).
     </p>
-    <h3>Marin Software</h3>
-    <em>Senior Engineer ~ Portland, Oregon ~ 2012</em>
+    <h3>
+      <a href="http://marinsoftware.com">Marin Software</a> • Senior Engineer •
+      2012
+    </h3>
     <blockquote>
-      <a href="http://marinsoftware.com">Marin Software</a> allows advertisers
-      to manage online marketing campaigns across a variety of publishers,
-      including Google and Facebook.
+      Marin Software allows advertisers to manage online marketing campaigns
+      across a variety of publishers, including Google and Facebook.
     </blockquote>
     <p>
       Developed search features and performance improvements. Developed a data
       pipeline for asynchronously loading search and aggregate data into the
       front-end web application. (Java, JavaScript)
     </p>
-    <h3>ClearAccess Inc.</h3>
-    <em>Senior Engineer ~ Vancouver, Washington ~ 2009-2012</em>
+    <h3>ClearAccess Inc. • Senior Engineer • 2009-2012</h3>
     <blockquote>
       ClearAccess provided Auto-Configuration Server (ACS) software and
       customer-premises equipment (CPE) firmware to deliver flexible and
@@ -223,13 +228,14 @@ export default () => (
         query language, with text parser and user interface (Scala, Solr)
       </li>
     </ol>
-    <h3>QUALCOMM, Inc.</h3>
-    <em>Senior Engineer ~ Portland, Oregon ~ 2001-2009</em>
+    <h3>
+      <a href="http://qualcomm.com">QUALCOMM</a>, Inc. • Senior Engineer •
+      2001-2009
+    </h3>
     <blockquote>
-      <a href="http://qualcomm.com">Qualcomm</a> designs, manufactures, and
-      markets wireless telecommunications products and services based on its
-      CDMA technology, and delivers integrated wireless applications and
-      services.
+      Qualcomm designs, manufactures, and markets wireless telecommunications
+      products and services based on its CDMA technology, and delivers
+      integrated wireless applications and services.
     </blockquote>
     <p>
       Implemented application features used by human drivers of hong-haul
@@ -242,25 +248,20 @@ export default () => (
       Windows CE.NET, ASP.NET, Java, Perl, Python)
     </p>
     <p>
-      Early supporter of unit testing, dependency injection/inversion of
-      control, mock objects, and source control. At the time these were new
-      ideas and required advocacy.
-    </p>
-    <p>
-      I supported the IT infrastructure for the Portland office, including
+      Supported the IT infrastructure for the Portland office, including
       workstations for 50+ employees, on-premises servers, and other LAN, WAN,
       and telecommunications equipment.
     </p>
     <h2>Education</h2>
-    <em>
+    <h3>
       <a href="http://pdx.edu">Portland State University</a>
-      {" ~ "}
+      {" • "}
       <a href="https://www.pdx.edu/business">The School of Business</a>
-      {" ~ "}
-      Bachelor of Science{" ~ "}
-      Information Systems{" ~ "}
+      {" • "}
+      Bachelor of Science{" • "}
+      Information Systems{" • "}
       Honors
-    </em>
+    </h3>
     <p>
       Coursework included Unix, C, C++, C#/.NET, SQL, data structures,
       algorithms, computer networking, data modeling, database management,
