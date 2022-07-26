@@ -1,9 +1,12 @@
 # Tech List
 
-I have professional experience with everything in this list:
+Landon has significant experience with everything in this list:
 
 - 2D graphics
 - AJAX
+- Akka
+- Akka Streams
+- Apache Cassandra
 - Apache Spark
 - AWS CloudWatch
 - AWS DynamoDB
@@ -36,6 +39,7 @@ I have professional experience with everything in this list:
 - Hibernate
 - HTML
 - HTTP
+- IntelliJ IDEA
 - Java
 - JavaScript
 - Jenkins
@@ -68,6 +72,7 @@ I have professional experience with everything in this list:
 - Python
 - React
 - REST
+- SaSS
 - Scala
 - Servlet
 - Solr

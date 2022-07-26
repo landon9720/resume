@@ -21,44 +21,63 @@ export default () => (
     <p>
       I design, implement, and operate applications of software technology. I am
       trained in business, and I am passionate about delivering value in the
-      form of deployed, operated, and continuously improving software systems.
-      <span className="no-print">
-        {" "}
-        I am a programmer, operator, and full-time team-member. I support and mentor
-        both internal and external stakeholders, and team members. I work with
-        customers to derive and prioritized requirements. I work internally to
-        define deliverable work items, which I then implement in full or as part
-        of a team. I have significant experience in the domain of web
-        applications and services, and I am a multiskilled Information
-        Technology contributor.
-      </span>{" "}
-      I have professional experience developing software in programming
-      languages including:
+      form of deployed, supported, and continuously improving software systems.
+      I am a programmer, operator, and full-time team-member. I support and
+      mentor stakeholders and team members. I work with customers to derive and
+      prioritized requirements. I work internally to define deliverable work
+      items, which I then implement in full or as part of a team. I have
+      significant experience in the domain of web applications and services, and
+      I am a multiskilled Information Technology contributor.
     </p>
-    <ul>
-      <li>TypeScript, JavaScript</li>
-      <li>Scala, Java</li>
-      <li>Perl, Python, Bash</li>
-      <li>C, C++</li>
-      <li>C#</li>
-      <li className="no-print">
-        <Link to="tech">Navigate here for the longer list</Link>
-      </li>
-    </ul>
     <p>
-      Target environments include AWS, web browsers, mobile devices, and
-      personal computers.
-    </p>
-    <p className="no-print">
       I practice iterative development, unit testing, clean code, continuous
       integration, and infrastructure-as-code. Every day I use Chrome, Git, and
       Visual Studio Code. My programming hobbies include simulations, genetic
       algorithms, and computer-generated music. I am a husband, and father of
-      two teens. When not working, I{" "}
-      <a href="https://landon9720.bandcamp.com">make</a>{" "}
+      teens. When not working, I <a href="https://banjomultiverse.com">make</a>{" "}
       <a href="https://soundcloud.com/landon9720">music</a>.
     </p>
+    <p className="no-print">
+      <Link to="tech">Please see my technology list.</Link>
+    </p>
     <h2>Work Experience</h2>
+    <h3>
+      <a href="https://www.thatdot.com">thatDot</a> • Senior Software Engineer •
+      2021-
+    </h3>
+    <blockquote>
+      thatDot is a graph database with innovative features such as integration
+      with streaming data sources (Kafka, Kinesis).
+    </blockquote>
+    Developed new product features:
+    <ol>
+      <li>
+        Designed, implemented, documented, and supported "Recipe" feature, which
+        is a YAML file that contains the implementation of a thatDot use-case.
+        Recipes include descriptions of how to read records from sources, how to
+        transform and write records to the persistent graph data model, and how
+        to query and output records to destinations. (Scala)
+      </li>
+    </ol>
+    Extended the product:
+    <ol>
+      <li>Ingest from UNIX named pipes, output to AWS Kinesis</li>{" "}
+      <li>
+        Cypher language improvements: variable length pattern matching, regex,
+        time modelling/indexing
+      </li>
+    </ol>
+    Improved product quality and scalability:
+    <ol>
+      <li>
+        Created a product testing tool that drives the product through various
+        test scenarios and assertions
+      </li>
+      <li>
+        Multipart snapshots allow record size to scale indefinitely despite
+        per-record size limits in the underlying store (Cassandra)
+      </li>
+    </ol>
     <h3>
       <a href="https://formant.io">Formant</a> • Senior Software Engineer •
       2018-2021
