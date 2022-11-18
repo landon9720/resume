@@ -1,13 +1,16 @@
 # Tech List
 
-Landon has significant experience with everything in this list:
+I have experience with every item in this list:
 
 - 2D graphics
 - AJAX
 - Akka
 - Akka Streams
 - Apache Cassandra
+- Apache Solr
 - Apache Spark
+- Apache Struts
+- Apache Tomcat
 - AWS CloudWatch
 - AWS DynamoDB
 - AWS EC2
@@ -23,6 +26,7 @@ Landon has significant experience with everything in this list:
 - C, C++
 - C#
 - CSS
+- Dependency injection / inversion of control
 - Docker
 - DOM
 - DSL (Domain-specific language)
@@ -31,6 +35,7 @@ Landon has significant experience with everything in this list:
 - Functional programming
 - Genetic algorithms
 - Git
+- Google Authentication API
 - Google Calendar API
 - Google Chrome
 - Google Firebase
@@ -43,6 +48,7 @@ Landon has significant experience with everything in this list:
 - Java
 - JavaScript
 - Jenkins
+- JIRA
 - jQuery
 - JSON
 - JSP
@@ -60,6 +66,7 @@ Landon has significant experience with everything in this list:
 - Microsoft Visual Studio
 - Microsoft Visual Studio Code
 - Microsoft Win32 API
+- Microsoft Windows
 - MongoDB
 - MySQL
 - NodeJS
@@ -75,18 +82,16 @@ Landon has significant experience with everything in this list:
 - SaSS
 - Scala
 - Servlet
-- Solr
+- Slack
 - Spring Framework
 - SQL
-- Struts
 - SVG
 - Terraform
-- Tomcat
 - TypeScript
 - Underscore
+- Unit testing
 - Unix
 - Web Audio API
 - Web sockets
 - Webpack
-- Windows
 - XML

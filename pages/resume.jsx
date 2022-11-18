@@ -31,47 +31,50 @@ export default () => (
     </p>
     <p>
       I practice iterative development, unit testing, clean code, continuous
-      integration, and infrastructure-as-code. Every day I use Chrome, Git, and
-      Visual Studio Code. My programming hobbies include simulations, genetic
-      algorithms, and computer-generated music. I am a husband, and father of
-      teens. When not working, I <a href="https://banjomultiverse.com">make</a>{" "}
-      <a href="https://soundcloud.com/landon9720">music</a>.
+      integration, and infrastructure-as-code. Every day I use Chrome, Git,
+      IDEA, and Visual Studio Code. My programming hobbies include simulations,
+      2D graphics, genetic algorithms, and computer-generated music. I am a
+      husband, and father of teens.
+      <span className="no-print">
+        &nbsp;When not working, I <a href="https://banjomultiverse.com">make</a>{" "}
+        <a href="https://soundcloud.com/landon9720">music</a>.
+      </span>
     </p>
     <p className="no-print">
-      <Link to="tech">Please see my technology list.</Link>
+      <Link to="tech">
+        Please see my list of every technology with which I have significant
+        experience.
+      </Link>
     </p>
     <h2>Work Experience</h2>
     <h3>
       <a href="https://www.thatdot.com">thatDot</a> • Senior Software Engineer •
-      2021-
+      2021-2022
     </h3>
     <blockquote>
       thatDot is a graph database with innovative features such as integration
-      with streaming data sources (Kafka, Kinesis).
+      with streaming data sources.
     </blockquote>
     Developed new product features:
     <ol>
       <li>
-        Designed, implemented, documented, and supported "Recipe" feature, which
-        is a YAML file that contains the implementation of a thatDot use-case.
-        Recipes include descriptions of how to read records from sources, how to
-        transform and write records to the persistent graph data model, and how
-        to query and output records to destinations. (Scala)
+        Designed, implemented, documented, and supported Recipe feature, which
+        is a YAML file that implements a thatDot use-case. Recipes include
+        descriptions of how to read records from sources, how to transform and
+        write records to the persistent graph data model, and how to query and
+        output records to destinations. (Scala, Akka)
       </li>
-    </ol>
-    Extended the product:
-    <ol>
       <li>Ingest from UNIX named pipes, output to AWS Kinesis</li>{" "}
       <li>
-        Cypher language improvements: variable length pattern matching, regex,
-        time modelling/indexing
+        Variable length pattern matching, regex, time modelling/indexing
+        (Cypher)
       </li>
     </ol>
     Improved product quality and scalability:
     <ol>
       <li>
-        Created a product testing tool that drives the product through various
-        test scenarios and assertions
+        Created a product testing tool that drives the product through scenarios
+        and assertions
       </li>
       <li>
         Multipart snapshots allow record size to scale indefinitely despite
@@ -89,15 +92,12 @@ export default () => (
       telemetry data, management of fleets, user comments and annotations, and
       integration with external services.
     </blockquote>
-    <p>
-      Built and supported product features covering the entire software stack:
-    </p>
+    <p>Built and supported product features:</p>
     <ol>
       <li>
-        Improved data ingestion to leverage realtime stream processing
-        (initially Kinesis, later Kafka) to improve web service performance and
-        system scalability, and to implement data aggregation and export to S3
-        (TypeScript, NodeJS).
+        Improved data ingestion to leverage realtime stream processing (Kinesis,
+        Kafka) to improve web service performance and system scalability, and to
+        implement data aggregation and export to S3 (TypeScript, NodeJS).
       </li>
       <li>
         Implemented Annotations feature, which allow robot telemetry to be
@@ -134,7 +134,6 @@ export default () => (
         analytics (S3, Athena). Developed and supported custom reports and
         dashboards for Formant customers (Looker, Tableau).
       </li>
-      <li>Team communications (JIRA, Slack)</li>
     </ol>
     <h3>
       <a href="https://sunsama.com">Sunsama</a> • Software Architect • 2017-2018
