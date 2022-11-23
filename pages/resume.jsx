@@ -20,23 +20,29 @@ export default () => (
     <h2>Introduction</h2>
     <p>
       I design, implement, and operate applications of software technology. I am
-      trained in business, and I am passionate about delivering value in the
-      form of deployed, supported, and continuously improving software systems.
-      I am a programmer, operator, and full-time team-member. I support and
-      mentor stakeholders and team members. I work with customers to derive and
-      prioritized requirements. I work internally to define deliverable work
-      items, which I then implement in full or as part of a team. I have
-      significant experience in the domain of web applications and services, and
-      I am a multiskilled Information Technology contributor.
+      trained in business, and am passionate about delivering value in the form
+      of deployed, supported, and continuously improving software systems. I am
+      an expert programmer, with a lifetime of experience, driven by genuine
+      passion for Information Technology.
     </p>
     <p>
-      I practice iterative development, unit testing, clean code, continuous
-      integration, and infrastructure-as-code. Every day I use Chrome, Git,
-      IDEA, and Visual Studio Code. My programming hobbies include simulations,
-      2D graphics, genetic algorithms, and computer-generated music. I am a
-      husband, and father of teens.
+      I work with customers and their proxies to derive and prioritized
+      requirements. I design, document, and socialize implementation options
+      before I write code. I derive deliverable work tasks, which I implement in
+      full or as part of a team. I support and mentor stakeholders and team
+      members. I operate and manage infrastructure. I have significant
+      experience in the domain of web applications and services, and I am a
+      multiskilled IT professional.
+    </p>
+    <p>
+      My programming practices iterative development, unit and functional
+      testing, dependency injection, clean code, continuous integration,
+      infrastructure-as-code, functional programming, and observability. Every
+      day I use Chrome, Git, IDEA, and Visual Studio Code. My programming
+      hobbies include simulations, 2D graphics, genetic algorithms, and
+      computer-generated music. I am a husband, and father of teens.
       <span className="no-print">
-        &nbsp;When not working, I <a href="https://banjomultiverse.com">make</a>{" "}
+        &nbsp;When not at work, I <a href="https://banjomultiverse.com">make</a>{" "}
         <a href="https://soundcloud.com/landon9720">music</a>.
       </span>
     </p>
@@ -55,30 +61,32 @@ export default () => (
       thatDot is a graph database with innovative features such as integration
       with streaming data sources.
     </blockquote>
-    Developed new product features:
+    Designed, implemented, and supported product features, and improved quality,
+    stability, and scalability. (Scala, Akka, Akka Streams, Alpakka,
+    endpoints4s). Projects include:
     <ol>
       <li>
-        Designed, implemented, documented, and supported Recipe feature, which
-        is a YAML file that implements a thatDot use-case. Recipes include
-        descriptions of how to read records from sources, how to transform and
-        write records to the persistent graph data model, and how to query and
-        output records to destinations. (Scala, Akka)
-      </li>
-      <li>Ingest from UNIX named pipes, output to AWS Kinesis</li>{" "}
-      <li>
-        Variable length pattern matching, regex, time modelling/indexing
-        (Cypher)
-      </li>
-    </ol>
-    Improved product quality and scalability:
-    <ol>
-      <li>
-        Created a product testing tool that drives the product through scenarios
-        and assertions
+        Recipe is a YAML file that implements a thatDot use-case. Recipes are
+        descriptions of how to read records from sources, and include how to
+        transform and write records to the persistent graph data model, and how
+        to query and output records to destinations.
       </li>
       <li>
-        Multipart snapshots allow record size to scale indefinitely despite
-        per-record size limits in the underlying store (Cassandra)
+        Added data sources and sinks, including UNIX named pipes, and AWS
+        Kinesis.
+      </li>{" "}
+      <li>
+        Added Cypher language features, including variable length pattern
+        matching, support for regular expressions, and functions for time
+        modelling and indexing.
+      </li>
+      <li>
+        Developed product integration test that drives scenarios, measure
+        performance, and assert correctness.
+      </li>
+      <li>
+        Added multipart snapshots to allow record size to scale indefinitely
+        despite per-record size limits in the underlying store (Cassandra).
       </li>
     </ol>
     <h3>
