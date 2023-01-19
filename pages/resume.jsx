@@ -35,12 +35,13 @@ export default () => (
       multiskilled IT professional.
     </p>
     <p>
-      My programming practices iterative development, unit and functional
-      testing, dependency injection, clean code, continuous integration,
-      infrastructure-as-code, functional programming, and observability. Every
-      day I use Chrome, Git, IDEA, and Visual Studio Code. My programming
-      hobbies include simulations, 2D graphics, genetic algorithms, and
-      computer-generated music. I am a husband, and father of teens.
+      My programming practices include iterative development, unit and
+      functional testing, dependency injection, clean code, continuous
+      integration, infrastructure-as-code, functional programming, and
+      observability. Every day I use Chrome, Git, IDEA, and Visual Studio Code.
+      My programming hobbies include simulations, 2D graphics, genetic
+      algorithms, and computer-generated music. I am a husband, and father of
+      teens.
       <span className="no-print">
         &nbsp;When not at work, I <a href="https://banjomultiverse.com">make</a>{" "}
         <a href="https://soundcloud.com/landon9720">music</a>.
@@ -164,9 +165,6 @@ export default () => (
         Infrastructure, build, and deployment (AWS, EC2, ECS, CloudWatch,
         Terraform, Jenkins, Docker, Bash)
       </li>
-      <li>Operational monitoring and emergency support</li>
-      <li>Software development process management (Scrum, Kanban)</li>
-      <li>Team communications (Sunsama, Slack)</li>
     </ol>
     <h3>
       <a href="http://mobilerq.com">MobileRQ</a> • Software Architect •
@@ -227,8 +225,11 @@ export default () => (
     </blockquote>
     <p>
       Developed search features and performance improvements. Developed a data
-      pipeline for asynchronously loading search and aggregate data into the
+      pipeline for asynchronously joining search and aggregate data in the
       front-end web application. (Java, JavaScript)
+    </p>
+    <p>
+      Built backend microservice for managing customer records. (DropWizard)
     </p>
     <h3>ClearAccess Inc. • Senior Engineer • 2009-2012</h3>
     <blockquote>
@@ -237,18 +238,20 @@ export default () => (
       scalable device and application management based on the Broadband Forum's
       TR-069 standard. ClearAccess was acquired by Cisco Systems in March 2012.
     </blockquote>
-    <p>Developed web applications and services, including:</p>
+    <p>
+      Team member developing web application backend and frontend, including:
+    </p>
     <ol>
       <li>
-        Web applications for management of wireless access points, cable and DSL
-        modems, and NAT devices (Scala, Java, Tomcat)
+        Data models, web services, and front end user interface for management
+        of wireless access points, cable and DSL modems, and NAT devices (Scala,
+        Java, Tomcat, MySQL, PostgreSQL, Hibernate)
       </li>
       <li>
         Implementation of TR-069, the protocol used to manage customer-premises
-        equipment (Scala, Java, Tomcat, HTTP, XML)
+        equipment (Scala, Java, Tomcat, HTTP, XML), and end-user extensibility
+        (Java/JavaScript)
       </li>
-      <li>Data storage and transformation (MySQL, PostgreSQL)</li>
-      <li>Device communication scripting (Java/JavaScript)</li>
       <li>
         Search and reporting features, including data indexing engine, custom
         query language, with text parser and user interface (Scala, Solr)
@@ -286,7 +289,8 @@ export default () => (
       {" • "}
       Bachelor of Science{" • "}
       Information Systems{" • "}
-      Honors
+      Honors{" • "}
+      August 2001
     </h3>
     <p>
       Coursework included Unix, C, C++, C#/.NET, SQL, data structures,
