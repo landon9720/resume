@@ -9,13 +9,11 @@ export default () => (
     </h1>
     <p>
       <a href="mailto://landon9720@gmail.com">landon9720@gmail.com</a>
-      <br />
+      {" • "}
       <Link to="/portland">Portland, Oregon, USA</Link>
-      <br />
-      971-645-5501
-      <br />
+      {" • "}
+      971-645-5501{" • "}
       <Link to="/landon9720">landon9720.com</Link>
-      <br />
     </p>
     <h2>Introduction</h2>
     <p>
@@ -43,15 +41,18 @@ export default () => (
       algorithms, and computer-generated music. I am a husband, and father of
       teens.
       <span className="no-print">
-        &nbsp;When not at work, I <a href="https://banjomultiverse.com">make</a>{" "}
-        <a href="https://soundcloud.com/landon9720">music</a>.
+        {" "}
+        When not at work, I <a href="https://landon9720.bandcamp.com">
+          make
+        </a>{" "}
+        <a href="https://soundcloud.com/landon9720">music</a>. Please see my{" "}
+        <Link to="tech">technology list</Link>, and visit me on{" "}
+        <a href="https://stackoverflow.com/users/1785/landon-kuhn">
+          StackOverflow
+        </a>
+        , <a href="https://github.com/landon9720">GitHub</a>, and{" "}
+        <a href="https://www.linkedin.com/in/landonkuhn">LinkedIn</a>.
       </span>
-    </p>
-    <p className="no-print">
-      <Link to="tech">
-        Please see my list of every technology with which I have significant
-        experience.
-      </Link>
     </p>
     <h2>Work Experience</h2>
     <h3>
@@ -62,15 +63,17 @@ export default () => (
       thatDot is a graph database with innovative features such as integration
       with streaming data sources.
     </blockquote>
-    Designed, implemented, and supported product features, and improved quality,
-    stability, and scalability. (Scala, Akka, Akka Streams, Alpakka,
-    endpoints4s). Projects include:
+    <p>
+      Designed, implemented, and supported product features, and improved
+      quality, stability, and scalability. (Scala, Akka, Akka Streams, Alpakka,
+      endpoints4s). Projects include:
+    </p>
     <ol>
       <li>
-        Recipe is a YAML file that implements a thatDot use-case. Recipes are
-        descriptions of how to read records from sources, and include how to
-        transform and write records to the persistent graph data model, and how
-        to query and output records to destinations.
+        Developed "Recipe", a YAML file that implements a thatDot use-case.
+        Recipes are descriptions of how to read records from sources, and
+        include how to transform and write records to the persistent graph data
+        model, and how to query and output records to destinations.
       </li>
       <li>
         Added data sources and sinks, including UNIX named pipes, and AWS
@@ -86,8 +89,8 @@ export default () => (
         performance, and assert correctness.
       </li>
       <li>
-        Added multipart snapshots to allow record size to scale indefinitely
-        despite per-record size limits in the underlying store (Cassandra).
+        Implemented multipart snapshots for unlimited record sizes despite
+        underlying store limitations.
       </li>
     </ol>
     <h3>
@@ -95,11 +98,10 @@ export default () => (
       2018-2021
     </h3>
     <blockquote>
-      Formant is a platform that connects robots and people. Formant provides
-      data collection, visualization, and controls for robots and related
-      devices. Formant web application includes visualization and export of
-      telemetry data, management of fleets, user comments and annotations, and
-      integration with external services.
+      Formant is a platform that connects robots and people, offering data
+      collection, visualization, and controls. Its web application includes
+      telemetry data visualization and export, fleet management, user comments
+      and annotations, and integration with external services.
     </blockquote>
     <p>Built and supported product features:</p>
     <ol>
@@ -117,12 +119,11 @@ export default () => (
         optimization (PostgreSQL).
       </li>
       <li>
-        Implemented Fleets feature, which is used to organize robot data.
-        Implemented data models, APIs, configuration pages and integration
-        throughout the frontend. Implemented Fleet dashboard, which is a
-        realtime display of robot metrics. Project work included frontend, APIs,
-        data model, and background data processing (React, TypeScript, NodeJS,
-        Kafka, PostgreSQL).
+        Implemented Fleets feature to organize robot data, including data
+        models, APIs, configuration pages and frontend integration. Implemented
+        Fleet dashboard, which is a realtime display of robot metrics. Project
+        work included frontend, APIs, data model, and background data processing
+        (React, TypeScript, NodeJS, Kafka, PostgreSQL).
       </li>
       <li>
         Implemented Commands, which allows messages to be sent from Formant
@@ -277,9 +278,9 @@ export default () => (
       Windows CE.NET, ASP.NET, Java, Perl, Python)
     </p>
     <p>
-      Supported the IT infrastructure for the Portland office, including
-      workstations for 50+ employees, on-premises servers, and other LAN, WAN,
-      and telecommunications equipment.
+      Supported IT infrastructure for Portland office, including workstations
+      for 50+ employees, on-premises servers, and LAN, WAN, and
+      telecommunications equipment.
     </p>
     <h2>Education</h2>
     <h3>
