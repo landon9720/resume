@@ -8,214 +8,149 @@ export default () => (
       <Link to="/helloworld">Landon Kuhn</Link>
     </h1>
     <p>
-      <a href="mailto://landon9720@gmail.com">landon9720@gmail.com</a>
-      {" • "}
-      <Link to="/portland">Portland, Oregon, USA</Link>
-      {" • "}
-      971-645-5501{" • "}
-      <Link to="/landon9720">landon9720.com</Link>
-    </p>
-    <h2>Introduction</h2>
-    <p>
-      I design, implement, and operate applications of software technology. I am
-      trained in business, and am passionate about delivering value in the form
-      of deployed, supported, and continuously improving software systems. I am
-      an expert programmer, with a lifetime of experience, driven by genuine
-      passion for Information Technology.
-    </p>
-    <p>
-      I work with customers and their proxies to derive and prioritized
-      requirements. I design, document, and socialize implementation options
-      before I write code. I derive deliverable work tasks, which I implement in
-      full or as part of a team. I support and mentor stakeholders and team
-      members. I operate and manage infrastructure. I have significant
-      experience in the domain of web applications and services, and I am a
-      multiskilled IT professional.
-    </p>
-    <p>
-      My programming practices include iterative development, unit and
-      functional testing, dependency injection, clean code, continuous
+      Designs, implements, and operates software applications. Trained in
+      business, expert programmer with a lifetime of experience, driven by a
+      genuine passion for Information Technology. Works with stakeholders to
+      derive and prioritize requirements, document implementation options, and
+      create planning artifacts such as Stories and Tasks. Mentors team members
+      and stakeholders. Manages and operates infrastructure. Has significant
+      experience in web applications and services, and is a multi-skilled IT
+      professional. Programming practices include iterative development, unit
+      and functional testing, dependency injection, clean code, continuous
       integration, infrastructure-as-code, functional programming, and
-      observability. Every day I use Chrome, Git, IDEA, and Visual Studio Code.
-      My programming hobbies include simulations, 2D graphics, genetic
-      algorithms, and computer-generated music. I am a husband, and father of
-      teens.
+      observability. Proficient in using Chrome, Git, IDEA, and Visual Studio
+      Code. Has recent experience with Scala and TypeScript, and also has
+      significant professional experience with Java, JavaScript, C/C++, and
+      HTML/CSS and related technologies. Programming hobbies include
+      simulations, 2D graphics, genetic algorithms, and computer-generated
+      music.
       <span className="no-print">
         {" "}
-        When not at work, I <a href="https://landon9720.bandcamp.com">
-          make
+        When not at work, <a href="https://landon9720.bandcamp.com">
+          creates
         </a>{" "}
-        <a href="https://soundcloud.com/landon9720">music</a>. Please see my{" "}
-        <Link to="tech">technology list</Link>, and visit me on{" "}
+        <a href="https://soundcloud.com/landon9720">music</a>. See{" "}
+        <Link to="tech">technology list</Link>, and profiles on{" "}
         <a href="https://stackoverflow.com/users/1785/landon-kuhn">
           StackOverflow
         </a>
         , <a href="https://github.com/landon9720">GitHub</a>, and{" "}
         <a href="https://www.linkedin.com/in/landonkuhn">LinkedIn</a>.
-      </span>
+      </span>{" "}
+      Email is <a href="mailto://landon9720@gmail.com">landon9720@gmail.com</a>.
+      Locale is Portland, Oregon, USA.
     </p>
-    <h2>Work Experience</h2>
+    <h2>Experience</h2>
     <h3>
       <a href="https://www.thatdot.com">thatDot</a> • Senior Software Engineer •
       2021-2022
     </h3>
     <blockquote>
-      thatDot is a graph database with innovative features such as integration
-      with streaming data sources.
+      thatDot is an{" "}
+      <a href="https://github.com/thatdot/quine">open-source graph database</a>{" "}
+      with innovative features such as integration with streaming data
+      platforms.
     </blockquote>
     <p>
       Designed, implemented, and supported product features, and improved
-      quality, stability, and scalability. (Scala, Akka, Akka Streams, Alpakka,
-      endpoints4s). Projects include:
+      quality. Developed <a href="https://quine.io/recipes">Recipe</a>, a YAML
+      file that implements thatDot use-case. Recipes are descriptions of how to
+      read records from sources, include how to transform and write records to
+      persistent graph data model, how to query and output records to
+      destinations. Added data sources and sinks, including UNIX{" "}
+      <a href="https://docs.quine.io/components/ingest-sources/files-and-named-pipes.html#named-pipe">
+        named pipes
+      </a>
+      , AWS Kinesis. Added Cypher language features, including variable length
+      pattern matching, support for{" "}
+      <a href="https://docs.quine.io/reference/cypher/cypher-functions.html#:~:text=time%20into%20string-,text.regexFirstMatch,-text.regexFirstMatch(text">
+        regular expressions
+      </a>
+      ,{" "}
+      <a href="https://docs.quine.io/reference/reify-time.html">
+        functions for time modelling and indexing
+      </a>
+      . Developed product integration test to drive scenarios, measure
+      performance, and assert correctness. Implemented multipart snapshots for
+      unlimited record sizes despite underlying store limitations. (Scala, Akka,
+      Akka Streams, Alpakka, endpoints4s, UNIX)
     </p>
-    <ol>
-      <li>
-        Developed "Recipe", a YAML file that implements a thatDot use-case.
-        Recipes are descriptions of how to read records from sources, and
-        include how to transform and write records to the persistent graph data
-        model, and how to query and output records to destinations.
-      </li>
-      <li>
-        Added data sources and sinks, including UNIX named pipes, and AWS
-        Kinesis.
-      </li>{" "}
-      <li>
-        Added Cypher language features, including variable length pattern
-        matching, support for regular expressions, and functions for time
-        modelling and indexing.
-      </li>
-      <li>
-        Developed product integration test that drives scenarios, measure
-        performance, and assert correctness.
-      </li>
-      <li>
-        Implemented multipart snapshots for unlimited record sizes despite
-        underlying store limitations.
-      </li>
-    </ol>
     <h3>
       <a href="https://formant.io">Formant</a> • Senior Software Engineer •
       2018-2021
     </h3>
     <blockquote>
-      Formant is a platform that connects robots and people, offering data
-      collection, visualization, and controls. Its web application includes
-      telemetry data visualization and export, fleet management, user comments
-      and annotations, and integration with external services.
+      Formant offers robotic data collection, visualization, and controls. Web
+      application includes telemetry visualization and export, fleet management,
+      user comments and annotations, and service integration.
     </blockquote>
-    <p>Built and supported product features:</p>
-    <ol>
-      <li>
-        Improved data ingestion to leverage realtime stream processing (Kinesis,
-        Kafka) to improve web service performance and system scalability, and to
-        implement data aggregation and export to S3 (TypeScript, NodeJS).
-      </li>
-      <li>
-        Implemented Annotations feature, which allow robot telemetry to be
-        augmented with user input, and associated with records in external
-        systems (Google Sheets). Implemented frontend data collection and
-        configuration components (React), visualization and interaction with
-        time-series data (SVG), APIs (TypeScript, NodeJS), database modeling and
-        optimization (PostgreSQL).
-      </li>
-      <li>
-        Implemented Fleets feature to organize robot data, including data
-        models, APIs, configuration pages and frontend integration. Implemented
-        Fleet dashboard, which is a realtime display of robot metrics. Project
-        work included frontend, APIs, data model, and background data processing
-        (React, TypeScript, NodeJS, Kafka, PostgreSQL).
-      </li>
-      <li>
-        Implemented Commands, which allows messages to be sent from Formant
-        cloud to robots, are used to invoke custom behavior, and are triggered
-        manually or by evaluation of ingested robot telemetry. Implemented data
-        models, APIs, and frontend for configuring, sending, and reviewing
-        Commands.
-      </li>
-      <li>
-        Implemented infrastructure observability improvements: collection of
-        metrics, and integration external services (CloudWatch, DataDog). Allow
-        monitoring for system failures identification of performance hotspots.
-        Includes continuous automated integration testing of full application
-        stack.
-      </li>
-      <li>
-        Integrated Formant telemetry data with downstream services to support
-        analytics (S3, Athena). Developed and supported custom reports and
-        dashboards for Formant customers (Looker, Tableau).
-      </li>
-    </ol>
+    <p>
+      Improved telemetry ingestion by leveraging realtime stream processing, to
+      implement features such as aggregation, and export to S3. Implemented
+      Annotations feature, to allow telemetry to be augmented with user input.
+      Included building custom UI component for time-series data, and database
+      modeling and optimization. Implemented Fleets feature to organize robot
+      data, including data models, APIs, configuration pages, and dashboard for
+      realtime display of robot metrics. Implemented Commands, which allows
+      messages to be sent from Formant to robots, are used to invoke custom
+      behavior, and are triggered manually or by evaluation of telemetry, and
+      developed data models, APIs, and frontend for sending and reviewing
+      Commands. Improved product observability by collection of metrics,
+      integration to external services, and continuous automated integration
+      testing of full application stack. Integrated with downstream services to
+      support analytics. Developed reports and dashboards. (Athena, Canvas,
+      CloudWatch, DataDog, Google Sheets, Kafka, Kinesis, Kubernetes, Looker,
+      NodeJS, PostgreSQL, React, S3, SVG, Tableau, TypeScript)
+    </p>
     <h3>
       <a href="https://sunsama.com">Sunsama</a> • Software Architect • 2017-2018
     </h3>
     <blockquote>
-      Sunsama is a unique team task management application. In 15 months, our
-      team of 4 created a unique software product with an active and growing
-      user base.
+      Sunsama is a unique team task management application.
     </blockquote>
-    <p>Developed and operated the entire software stack, including:</p>
-    <ol>
-      <li>
-        User interface, with real time reactivity across all connected browsers
-        (React, GraphQL, NodeJS, Meteor, Chrome)
-      </li>
-      <li>Back-end services (Meteor, Web Sockets, MongoDB, AWS SQS)</li>
-      <li>API integration (Google Calendar, OAuth)</li>
-      <li>Native desktop application (Electron)</li>
-      <li>
-        Infrastructure, build, and deployment (AWS, EC2, ECS, CloudWatch,
-        Terraform, Jenkins, Docker, Bash)
-      </li>
-    </ol>
+    <p>
+      Developed and operated software stack (React, GraphQL, NodeJS, Meteor,
+      Chrome, Web Sockets, MongoDB). Included user interface, with real-time
+      reactivity across connected browsers. Included back-end services and
+      integrations to Google Calendar, and OAuth. Built native desktop
+      application (Electron). Managed build and deployment automation, and
+      infrastructure (AWS, EC2, ECS, CloudWatch, Terraform, Jenkins, Docker,
+      Bash).
+    </p>
     <h3>
       <a href="http://mobilerq.com">MobileRQ</a> • Software Architect •
       2015-2017
     </h3>
     <blockquote>
       MobileRQ enables targeted content delivery and push notifications for
-      mobile and web applications. MobileRQ was acquired by{" "}
+      mobile and web applications. Acquired by{" "}
       <a href="http://kochava.com">Kochava</a> in 2017.
     </blockquote>
     <p>
-      Developed, operated, and supported MobileRQ's software products, including
-      web applications and services on AWS, and iOS SDK. Responsibilities
-      included all aspects of the software stack:
+      Developed, operated, and supported software products. Included web all
+      aspects of software stack: user interface (HTML, CSS, JavaScript, jQuery,
+      Bootstrap), API (Java, Servlet, AWS Elastic Beanstalk), data storage and
+      transform (Scala, RDS/PostgreSQL, DynamoDB, S3). Implemented major
+      features and improvements, including: distributed matching engine to
+      evaluate customer-defined predicates with customer data (Scala, Apache
+      Ignite), architectural improvements resulting in order-of-magnitude cost
+      saving, and reliability improvement (Scala, AWS Kinesis, AWS DynamoDB).
     </p>
-    <ol>
-      <li>User interface (HTML, CSS, jQuery, Bootstrap)</li>
-      <li>Front-end API (Java, AWS Elastic Beanstalk)</li>
-      <li>
-        Data storage and transform (Scala, Apache Spark, RDS/PostgreSQL,
-        DynamoDB, S3)
-      </li>
-    </ol>
-    <p>Implemented major features and improvements including:</p>
-    <ol>
-      <li>
-        Distributed matching engine that evaluates customer-defined predicates
-        with customer data (Scala, Apache Ignite)
-      </li>
-      <li>
-        Architectural refractors, resulting in order-of-magnitude cost saving
-        and reliability improvement (Scala, AWS Kinesis, AWS DynamoDB)
-      </li>
-    </ol>
     <h3>Janrain • Software Architect • 2013-2015</h3>
     <blockquote>
       Janrain provided social identity and user profile management services for
       web sites and mobile applications.
     </blockquote>
     <p>
-      Designed and implemented of services for managing configuration data,
+      Designed and implemented services for managing configuration data,
       featuring a DSL for modeling and transforming data over a graph database
-      with compile-time correctness guarantees. (Scala)
+      (Scala). Built analytics products that leverage user profile and event
+      data. Responsibilities included architecture, vendor evaluations, project
+      planning, coordination with product owners, and facilitation of process
+      meetings. Implemented ETL, data access, and visualization (Scala, Apache
+      Spark, AWS EMR, S3, AWS Redshift, SQL).
     </p>
-    <p>
-      Built analytics products that leverage user profile and event data data.
-      My responsibilities included architecture, vendor evaluations, and project
-      planning and leadership. Implemented ETL, data access, and visualization
-      (Scala, Apache Spark, AWS EMR, S3, AWS Redshift, SQL).
-    </p>
+    <p></p>
     <h3>
       <a href="http://marinsoftware.com">Marin Software</a> • Senior Engineer •
       2012
@@ -227,37 +162,24 @@ export default () => (
     <p>
       Developed search features and performance improvements. Developed a data
       pipeline for asynchronously joining search and aggregate data in the
-      front-end web application. (Java, JavaScript)
-    </p>
-    <p>
-      Built backend microservice for managing customer records. (DropWizard)
+      front-end web application. Built backend microservice for managing
+      customer records. (Java, JavaScript, DropWizard)
     </p>
     <h3>ClearAccess Inc. • Senior Engineer • 2009-2012</h3>
     <blockquote>
       ClearAccess provided Auto-Configuration Server (ACS) software and
-      customer-premises equipment (CPE) firmware to deliver flexible and
-      scalable device and application management based on the Broadband Forum's
-      TR-069 standard. ClearAccess was acquired by Cisco Systems in March 2012.
+      customer-premises equipment (CPE) firmware to deliver device management
+      based on the Broadband Forum's TR-069 standard. Acquired by Cisco Systems
+      in March 2012.
     </blockquote>
     <p>
-      Team member developing web application backend and frontend, including:
+      Developed web application full-stack, including data models, web services,
+      and front end user interface for management of wireless access points,
+      cable and DSL modems, and NAT devices. Developed search and reporting
+      features, including data indexing engine, custom query language, with
+      parser, and UI. Worked on TR-069 extensibility supported by user-facing
+      scripts. (Scala, Java, JavaScript, Tomcat, MySQL, PostgreSQL, Hibernate)
     </p>
-    <ol>
-      <li>
-        Data models, web services, and front end user interface for management
-        of wireless access points, cable and DSL modems, and NAT devices (Scala,
-        Java, Tomcat, MySQL, PostgreSQL, Hibernate)
-      </li>
-      <li>
-        Implementation of TR-069, the protocol used to manage customer-premises
-        equipment (Scala, Java, Tomcat, HTTP, XML), and end-user extensibility
-        (Java/JavaScript)
-      </li>
-      <li>
-        Search and reporting features, including data indexing engine, custom
-        query language, with text parser and user interface (Scala, Solr)
-      </li>
-    </ol>
     <h3>
       <a href="http://qualcomm.com">QUALCOMM</a>, Inc. • Senior Engineer •
       2001-2009
@@ -268,19 +190,16 @@ export default () => (
       integrated wireless applications and services.
     </blockquote>
     <p>
-      Implemented application features used by human drivers of hong-haul
+      Implemented application features used by drivers of hong-haul
       tractor-trailers. Developed applications for real-time monitoring of
-      freight. Created algorithms for processing driver logs according to FMCSA
-      Hours-of-Service regulations. Worked with position data, map
-      visualization, geofencing, and SMS alerts. Maintained and responsible for
-      build automation for multi-platform product SDK. These projects provided
-      abundant opportunities for learning and growth. (C, C++, C#, Windows CE,
-      Windows CE.NET, ASP.NET, Java, Perl, Python)
-    </p>
-    <p>
-      Supported IT infrastructure for Portland office, including workstations
-      for 50+ employees, on-premises servers, and LAN, WAN, and
-      telecommunications equipment.
+      freight. Created algorithms for processing and visualization of driver
+      logs according to FMCSA Hours-of-Service regulations. Worked with position
+      data, map visualization, geofencing, and SMS alerts. Maintained and
+      responsible for build automation for multi-platform product SDK.
+      Additionally supported IT infrastructure for Portland office, including
+      workstations for 50+ employees, on-premises servers, LAN/WAN, and
+      telecommunications equipment. (C, C++, C#, Windows CE, Windows CE.NET,
+      ASP.NET, Java, Perl, Python)
     </p>
     <h2>Education</h2>
     <h3>
@@ -289,14 +208,12 @@ export default () => (
       <a href="https://www.pdx.edu/business">The School of Business</a>
       {" • "}
       Bachelor of Science{" • "}
-      Information Systems{" • "}
-      Honors{" • "}
-      August 2001
+      Business Administration: Information Systems
     </h3>
     <p>
-      Coursework included Unix, C, C++, C#/.NET, SQL, data structures,
+      Coursework included UNIX, C, C++, C#/.NET, SQL, data structures,
       algorithms, computer networking, data modeling, database management,
-      business, finance, marketing.
+      business, finance, marketing. Graduated August 2001 with honors.
     </p>
     <footer className="no-print">
       <a href="https://github.com/landon9720/resume/blob/master/Mandelbrot.jsx">

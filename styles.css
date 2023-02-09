@@ -1,6 +1,6 @@
 body {
-  font-family: "Source Sans Pro", serif;
-  line-height: 1.2rem;
+  font-family: Verdana;
+  line-height: 1rem;
   font-size: 10pt;
   max-width: 600px;
   margin: auto;
@@ -12,17 +12,19 @@ h1,
 h2,
 h3,
 h4 {
+  font-weight: bold;
   color: #333;
-  margin: 0 0 1rem 0;
+  line-height: 1.5rem;
 }
 h1 {
-  font-size: 18pt;
+  font-size: 16pt;
+  margin: 0 0 .5rem 0;
 }
 h2 {
-  font-size: 15pt;
+  font-size: 13pt;
 }
 h3 {
-  font-size: 13pt;
+  font-size: 11pt;
 }
 a,
 a:visited,
@@ -48,7 +50,6 @@ em {
   font-style: italic;
 }
 blockquote {
-  margin: 10px 20px;
   font-style: italic;
 }
 ul,
