@@ -12,18 +12,16 @@ export default () => (
       business, expert programmer with a lifetime of experience, driven by a
       genuine passion for Information Technology. Works with stakeholders to
       derive and prioritize requirements, document implementation options, and
-      create planning artifacts such as Stories and Tasks. Mentors team members
-      and stakeholders. Manages and operates infrastructure. Has significant
-      experience in web applications and services, and is a multi-skilled IT
-      professional. Programming practices include iterative development, unit
-      and functional testing, dependency injection, clean code, continuous
-      integration, infrastructure-as-code, functional programming, and
-      observability. Proficient in using Chrome, Git, IDEA, and Visual Studio
-      Code. Has recent experience with Scala and TypeScript, and also has
-      significant professional experience with Java, JavaScript, C/C++, and
-      HTML/CSS and related technologies. Programming hobbies include
-      simulations, 2D graphics, genetic algorithms, and computer-generated
-      music.
+      create planning artifacts. Mentors team members and stakeholders. Manages
+      and operates infrastructure. Has significant experience in web
+      applications and services, and is a multi-skilled IT professional.
+      Programming practices include iterative development, unit and functional
+      testing, dependency injection, clean code, continuous integration,
+      infrastructure-as-code, functional programming, and observability.
+      Proficient in using Chrome, Git, IDEA, and Visual Studio Code. Recent
+      experience with Scala and TypeScript. Also has significant professional
+      experience with Java, JavaScript, C/C++, and HTML/CSS and related
+      technologies.
       <span className="no-print">
         {" "}
         When not at work, <a href="https://landon9720.bandcamp.com">
