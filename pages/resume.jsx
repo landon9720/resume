@@ -4,9 +4,13 @@ import Mandelbrot from "../Mandelbrot.jsx"
 
 export default () => (
   <div>
-    <h1>
+    <h2>
       <Link to="/helloworld">Landon Kuhn</Link>
-    </h1>
+    </h2>
+    <h3>
+      <a href="mailto://landon9720@gmail.com">landon9720@gmail.com</a> •{" "}
+      Portland, Oregon, USA
+    </h3>
     <p>
       Designs, implements, and operates software applications. Trained in
       business, expert programmer with a lifetime of experience, driven by a
@@ -35,8 +39,6 @@ export default () => (
         , <a href="https://github.com/landon9720">GitHub</a>, and{" "}
         <a href="https://www.linkedin.com/in/landonkuhn">LinkedIn</a>.
       </span>{" "}
-      Email is <a href="mailto://landon9720@gmail.com">landon9720@gmail.com</a>.
-      Locale is Portland, Oregon, USA.
     </p>
     <h2>Experience</h2>
     <h3>
