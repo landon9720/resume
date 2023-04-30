@@ -2,9 +2,11 @@
 
 ### [landon9720@gmail.com](mailto://landon9720@gmail.com) • Portland, Oregon, USA
 
-Designs, implements, and operates software applications. Trained in business, expert programmer with a lifetime of experience, driven by genuine passion for Information Technology. Works with stakeholders to derive and prioritize requirements, document implementation options, and create planning artifacts. Mentors team members and stakeholders. Manages and operates infrastructure. Has significant experience in web applications and services, and is a multi-skilled IT professional. 
+Designs, implements, and operates software applications. Trained in business, expert programmer with a lifetime of experience, driven by genuine passion for Information Technology. 
 
-Current programming languages and frameworks:
+Works with stakeholders to derive and prioritize requirements, document implementation options, and create planning artifacts. Mentors team members and customers. Manages and operates infrastructure. Has significant experience in web applications and services, and is a multi-skilled IT professional. 
+
+Current programming languages and technologies:
 * Scala
 * TypeScript
 * React
@@ -17,6 +19,7 @@ Additional significant experience with:
 * Python
 * Perl
 * C#
+* SQL
 
 Programming practices:
 * Iterative development
@@ -29,33 +32,33 @@ Programming practices:
 * Observability
 
 Uses:
-* Chrome
-* Git
+* AWS
+* Unix
 * Visual Studio Code
 * IDEA
-* AWS
+* Git
 
 ## Experience
 
 ### [thatDot](https://www.thatdot.com/) • Senior Software Engineer • 2021-2022
 
-> thatDot is an [open-source graph database](https://github.com/thatdot/quine) with innovative features such as integration with streaming data platforms.
+> thatDot is an [graph database](https://github.com/thatdot/quine) with innovative features such as integration with streaming data platforms.
 
-Developed, implemented, and supported product features, and improved quality of distributed software system. (Scala, Akka, Akka Streams, Akka HTTP, Alpakka, Unix)
+Programmed and supported product features, and improved quality of distributed software system. (Scala, Akka, Akka Streams, Akka HTTP, Alpakka, Unix)
 
-* Developed [Recipe](https://quine.io/recipes), a YAML file that implements thatDot use-case. Recipes are descriptions of how to read records from sources, including how to transform and write records to persistent graph data model, and how to query and output records to destinations. 
-* Added data sources and sinks, including Unix [named pipes](https://docs.quine.io/components/ingest-sources/files-and-named-pipes.html#named-pipe), AWS Kinesis. 
-* Added Cypher language features, including variable length pattern matching, support for [regular expressions](https://docs.quine.io/reference/cypher/cypher-functions.html#:~:text=time%20into%20string-,text.regexFirstMatch,-text.regexFirstMatch(text)), [functions for time modelling and indexing](https://docs.quine.io/reference/reify-time.html). 
+* Developed [Recipe](https://quine.io/recipes), a YAML file that implements a thatDot use-case. Recipes are descriptions of how to read records from streaming sources, how to transform and write records to graph database, and how to output records to streaming destinations. 
+* Added data sources and sinks, including Unix [named pipes](https://docs.quine.io/components/ingest-sources/files-and-named-pipes.html#named-pipe), and AWS Kinesis.
+* Added Cypher language features, including variable length pattern matching, support for [regular expressions](https://docs.quine.io/reference/cypher/cypher-functions.html#:~:text=time%20into%20string-,text.regexFirstMatch,-text.regexFirstMatch(text)), and [functions for time modelling and indexing](https://docs.quine.io/reference/reify-time.html). 
 * Developed product integration test to drive scenarios, measure performance, and assert correctness. 
-* Implemented multipart snapshots for unlimited record sizes despite underlying store limitations. 
+* Implemented multipart snapshots for unlimited record sizes. 
 
 ### [Formant](https://formant.io/) • Senior Software Engineer • 2018-2021
 
 > Formant offers robotic data collection, visualization, and controls. Web application includes telemetry visualization and export, fleet management, user comments and annotations, and service integration.
 
-Developed full-stack observability application. (Athena, Canvas, CloudWatch, DataDog, Google Sheets, Kafka, Kinesis, Kubernetes, Looker, NodeJS, PostgreSQL, React, S3, SVG, Tableau, TypeScript)
+Developed full-stack metric collection and reporting application. (Athena, Canvas, CloudWatch, DataDog, Google Sheets, Kafka, Kinesis, Kubernetes, Looker, NodeJS, PostgreSQL, React, S3, SVG, Tableau, TypeScript)
 
-* Improved telemetry ingestion by leveraging real-time stream processing, to implement aggregation, and export to S3. 
+* Improved telemetry ingestion by leveraging real-time stream processing, to improve performance and scalability, and to implement summarization and export to S3.
 * Implemented Annotations, to allow telemetry to be augmented with user input. Included building custom UI component for time-series data, and database modeling and optimization. 
 * Implemented Fleets feature to organize robot data, including data models, APIs, configuration pages, and dashboard for real-time display of robot metrics. 
 * Implemented Commands, which allows messages to be sent to robots to invoke custom behavior, and are triggered manually or by evaluation of telemetry, and developed data models, APIs, and frontend for sending and reviewing Commands. 
@@ -66,9 +69,9 @@ Developed full-stack observability application. (Athena, Canvas, CloudWatch, Dat
 
 > Sunsama is a unique team calendar and task management application.
 
-Developed and operated full software stack. (React, GraphQL, NodeJS, Meteor, Chrome, Web Sockets, MongoDB)
+Developed and operated full software stack. (React, GraphQL, NodeJS, Meteor, MongoDB)
 
-* Developed UI features with real-time reactivity across connected browsers.
+* Developed UI features with real-time reactivity across connected browsers. (Web Sockets)
 * Integrated with Google Calendar and Google sign-in. (OAuth)
 * Built portable desktop application. (Electron)
 * Managed build and infrastructure. (AWS, EC2, ECS, CloudWatch, Terraform, Jenkins, Docker, Bash)
@@ -98,7 +101,7 @@ Developed, operated, and supported software product, including all aspects of so
 
 ### ClearAccess Inc. • Senior Engineer • 2009-2012
 
-> ClearAccess provided Auto-Configuration Server (ACS) software and customer-premises equipment (CPE) firmware to deliver device management based on the Broadband Forum's TR-069 standard. Acquired by Cisco Systems in March 2012.
+> ClearAccess provided Auto-Configuration Server (ACS) software and customer-premises equipment (CPE) firmware to deliver device management based on the Broadband Forum's [TR-069](https://www.broadband-forum.org/download/TR-069_Amendment-2.pdf) standard. Acquired by Cisco Systems in March 2012.
 
 Developed web application full-stack, including data models, web services, and front end user interface for management of wireless access points, cable and DSL modems, and NAT devices. (Scala, Java, JavaScript, Tomcat, MySQL, PostgreSQL, Hibernate)
 
