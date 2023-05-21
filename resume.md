@@ -1,6 +1,6 @@
 # Landon Kuhn
 
-### Portland, Oregon, USA • US Citizen
+### [landon9720@gmail.com](mailto://landon9720@gmail.com) • Portland, Oregon • US Citizen
 
 Designs, implements, and operates software applications. Trained in business, expert programmer with a lifetime of experience, driven by genuine passion for Information Technology. **[LinkedIn](https://www.linkedin.com/in/landonkuhn), [GitHub](https://github.com/landon9720), [Stack Overflow](https://stackoverflow.com/users/1785/landon-kuhn)**
 
@@ -12,11 +12,16 @@ Designs, implements, and operates software applications. Trained in business, ex
 
 Programmed and supported product features, and improved quality of distributed software system. **Scala, Akka, Akka Streams, Akka HTTP, Alpakka, Unix**
 
-* Developed [Recipe](https://quine.io/recipes), a YAML file that implements a thatDot use-case. Recipes are descriptions of how to read records from streaming sources, how to transform and write records to graph database, and how to output records to streaming destinations. 
-* Added data sources and sinks, including Unix [named pipes](https://docs.quine.io/components/ingest-sources/files-and-named-pipes.html#named-pipe), and AWS Kinesis.
-* Added Cypher language features, including variable length pattern matching, support for [regular expressions](https://docs.quine.io/reference/cypher/cypher-functions.html#:~:text=time%20into%20string-,text.regexFirstMatch,-text.regexFirstMatch(text)), and [functions for time modelling and indexing](https://docs.quine.io/reference/reify-time.html). 
-* Developed product integration test to drive scenarios, measure performance, and assert correctness. 
-* Implemented multipart snapshots for unlimited record sizes. 
+* Developed [Recipe](https://quine.io/recipes), a YAML file that implements a thatDot use-case. Recipes describe how to read records from streaming sources, transform and write records to graph database, and output records to streaming destinations. 
+* Implemented support for additional data sources and destinations:
+	1. [Unix named pipes](https://docs.quine.io/components/ingest-sources/files-and-named-pipes.html#named-pipe)
+	2. [AWS Kinesis](https://quine.io/components/standing-queries/#publish-to-kinesis-stream)
+* Added Cypher language features:
+	1. Variable length pattern matching
+	2. [Regular expressions](https://docs.quine.io/reference/cypher/cypher-functions.html#:~:text=time%20into%20string-,text.regexFirstMatch,-text.regexFirstMatch(text))
+	3. [Functions for time modelling and indexing](https://docs.quine.io/reference/reify-time.html)
+* Developed product integration test to drive scenarios, and assert correctness. Included cloud deployment. **CDK**
+* Implemented multipart snapshots for unlimited persistent record sizes.
 
 ### [Formant](https://formant.io/) • Senior Software Engineer • 2018-2021
 

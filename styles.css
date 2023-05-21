@@ -1,6 +1,6 @@
 body {
   font-family: Verdana;
-  line-height: 1rem;
+  line-height: 1.1rem;
   font-size: 10pt;
   max-width: 600px;
   margin: auto;
@@ -13,32 +13,24 @@ h2,
 h3,
 h4 {
   font-weight: bold;
-  color: #333;
   line-height: 1.5rem;
+  margin: .5rem 0;
 }
 h1 {
-  font-size: 16pt;
-  margin: 0 0 .5rem 0;
+  font-size: 20pt;
 }
 h2 {
-  font-size: 13pt;
+  font-size: 14pt;
 }
 h3 {
-  font-size: 11pt;
+  font-size: 13pt;
 }
 a,
 a:visited,
 a:hover,
 a:active {
-  color: #333;
-}
-a,
-a:visited {
-    text-decoration-color: #ccc;
-}
-a:hover,
-a:active {
-    text-decoration-color: rgb(58, 136, 27);
+  color: blue;
+  text-decoration-color: blue;
 }
 p {
   margin: 1rem 0;
@@ -51,15 +43,11 @@ em {
 }
 blockquote {
   font-style: italic;
-}
-ul,
-ol {
-  list-style: initial;
-  margin-bottom: 1rem;
+  padding-left: 1rem;
+  border-left: 1px solid lightgray;
 }
 li {
   margin: 0 20px;
-  list-style-position: inside;
 }
 footer {
   margin-top: 2rem;
