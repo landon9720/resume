@@ -1,9 +1,6 @@
 {
     "standard.enable": false,
     "cSpell.words": [
-        "indefinately",
-        "scenereos",
-        "serv"
     ],
     "prettier.semi": false
 }
