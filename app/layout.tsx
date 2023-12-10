@@ -5,7 +5,6 @@ import { Analytics } from '@vercel/analytics/react';
 export const metadata: Metadata = {
   title: "Landon Kuhn",
   description: "Personal website of Landon Kuhn",
-  viewport: { width: "device-width", initialScale: 1 },
 };
 
 export default function RootLayout({

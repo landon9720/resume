@@ -47,6 +47,9 @@ blockquote {
   border-left: 1px solid lightgray;
   margin-inline-start: 1rem;
 }
+ul {
+  padding: 0 0 0 1rem;
+}
 li {
   margin: 0 20px;
 }
