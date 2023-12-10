@@ -45,6 +45,7 @@ blockquote {
   font-style: italic;
   padding-left: 1rem;
   border-left: 1px solid lightgray;
+  margin-inline-start: 1rem;
 }
 li {
   margin: 0 20px;
